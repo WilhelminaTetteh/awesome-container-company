@@ -1,0 +1,17 @@
+.navbar__button {
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+	border: none;
+	padding: 13px 24px;
+	background-color: #ff9820;
+	border-radius: 10px;
+	margin-right: 40px;
+}
+
+.navbar__button:hover {
+	background-color: #e78819;
+}

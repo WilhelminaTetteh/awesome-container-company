@@ -1,0 +1,4 @@
+.home__visuals {
+	display: flex;
+	justify-content: space-between;
+}
