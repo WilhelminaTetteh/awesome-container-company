@@ -4,6 +4,7 @@
 @import url(./__carousel/solution__carousel.css);
 @import url(./__button/solution__button.css);
 @import url(./__button/_isRight/solution__button_isRight.css);
+@import url(./__card/solution__card.css);
 
 .solution {
   display: flex;
@@ -11,5 +12,5 @@
   justify-content: baseline;
   height: 1791px;
   background-color: #f4f4f4;
-  max-width: 1440px;
+  margin: 0 auto;
 }
