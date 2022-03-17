@@ -3,6 +3,7 @@
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/home/home.css);
 @import url(./blocks/problem/problem.css);
+@import url(./blocks/solution/solution.css);
 html,
 body {
 	margin: 0;

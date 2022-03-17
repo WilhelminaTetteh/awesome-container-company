@@ -1,0 +1,15 @@
+@import url(./__text-span/solution__text-span.css);
+@import url(./__text/solution__text.css);
+@import url(./__header/solution__header.css);
+@import url(./__carousel/solution__carousel.css);
+@import url(./__button/solution__button.css);
+@import url(./__button/_isRight/solution__button_isRight.css);
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  height: 1791px;
+  background-color: #f4f4f4;
+  max-width: 1440px;
+}

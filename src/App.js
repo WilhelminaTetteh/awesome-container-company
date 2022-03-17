@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import Problem from './components/Problem';
 import Navbar from './components/Navbar';
+import Solution from './components/Solution';
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<main>
 				<Home />
 				<Problem />
+				<Solution />
 			</main>
 			<footer>Footer</footer>
 		</div>
