@@ -23,15 +23,18 @@ const About = () => {
         </p>
         <p className="about__text about__text_2">
           02.
-          <br />Deliver containers to restaurants
+          <br />Deliver containers 
+          <br />to restaurants
         </p>
         <p className="about__text about__text_3">
           03.
-          <br />Pick up used containers from users via app
+          <br />Pick up used containers from users 
+          <br />via app
         </p>
         <p className="about__text about__text_4">
           04.
-          <br />Wash containers at commercial facility
+          <br />Wash containers 
+          <br />at commercial facility
         </p>
         <img src={arrow1} alt="diagonal down right arrow" className="about__arrow about__arrow_1" />
         <img src={arrow2} alt="diagonal down right arrow" className="about__arrow about__arrow_2" />
