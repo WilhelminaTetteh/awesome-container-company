@@ -1,0 +1,6 @@
+.solution__card-item {
+  background-image: url(../../../images/bullet-vector.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+}
