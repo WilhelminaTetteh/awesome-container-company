@@ -5,6 +5,11 @@
 @import url(./__button/solution__button.css);
 @import url(./__button/_isRight/solution__button_isRight.css);
 @import url(./__card/solution__card.css);
+@import url(./__card-header/solution__card-header.css);
+@import url(./__card-image/solution__card-image.css);
+@import url(./__card-item/solution__card-item.css);
+@import url(./__card-list/solution__card-list.css);
+@import url(./__card-text/solution__card-text.css);
 
 .solution {
   display: flex;
