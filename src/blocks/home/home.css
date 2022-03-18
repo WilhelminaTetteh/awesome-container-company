@@ -2,6 +2,47 @@
 @import url(./__header-span/home__header-span.css);
 @import url(./__slider/home__slider.css);
 @import url(./__visuals/home__visuals.css);
+:root {
+	--image-comparison-slider-width: min(80vw, 768px);
+	--image-comparison-slider-handle-width: 50px;
+}
 .home {
 	padding: 70px 40px 40px 40px;
+}
+
+/* .home__slider {
+	position: relative;
+	width: var(--image-comparison-slider-width);
+	overflow: hidden;
+	border-radius: 0.5rem;
+	box-shadow: -7px 5px 16px 1px rgba(56, 86, 122, 0.6);
+	cursor: col-resize;
+} */
+.home__slider-image {
+	display: block;
+	width: 628px;
+	height: auto;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+	user-select: none;
+}
+
+.handle-line {
+	width: 3px;
+	flex-grow: 1;
+	background-color: #ed9d40;
+}
+.handle-circle {
+	color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #ed9d40;
+	width: 28px;
+	height: 28px;
+}
+.home__slider-icon {
+	font-size: 10px;
 }
