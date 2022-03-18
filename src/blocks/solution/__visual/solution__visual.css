@@ -1,0 +1,6 @@
+.solution__visual {
+  position: relative;
+  min-width: 1024px;
+  max-width: 1440px;
+  height: 850px;
+}

@@ -1,5 +1,8 @@
 import React from "react";
 import card1 from "../images/card1.png";
+import image1 from "../images/solution1.png";
+import image2 from "../images/solution2.png";
+import image3 from "../images/solution3.png";
 
 const cardList = {
   "features": [
@@ -61,7 +64,7 @@ const Solution = () => {
       <div className="solution__carousel">
         <button className="solution__button" />
         <div className="solution__card">
-          <img src={card1} className="solution__card-image" alt="" />
+          <img src={card1} alt="" className="solution__card-image" />
           <div className="solution__card-text">
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
@@ -78,6 +81,11 @@ const Solution = () => {
           </div>
         </div>
         <button className="solution__button solution__button_isRight" />
+      </div>
+      <div className="solution__visual">
+        <img src={image1} alt="#" className="solution__visual-image solution__visual-image_1"></img>
+        <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2"></img>
+        <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3"></img>
       </div>
     </section>
   );
