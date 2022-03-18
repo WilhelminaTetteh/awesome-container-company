@@ -38,6 +38,7 @@ const About = () => {
         <img src={arrow3} alt="diagonal down right arrow" className="about__arrow about__arrow_3" />
         <img src={arrow4} alt="diagonal down right arrow" className="about__arrow about__arrow_4" />
       </div>
+      <button name="contact" className="about__button">Work with us</button>
     </section>
   );
 }
