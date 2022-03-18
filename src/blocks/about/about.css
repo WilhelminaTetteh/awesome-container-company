@@ -1,0 +1,12 @@
+@import url(__button/about__button.css);
+@import url(__center-text/about__center-text.css);
+@import url(__header/about__header.css);
+@import url(__image/about__image.css);
+@import url(__text/about__text.css);
+@import url(__visual/about__visual.css);
+@import url(__arrow/about__arrow.css);
+
+.about {
+  background-color: #e5e5e5;
+  height: 1110px;
+}

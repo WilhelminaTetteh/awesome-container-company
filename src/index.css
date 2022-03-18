@@ -4,6 +4,8 @@
 @import url(./blocks/home/home.css);
 @import url(./blocks/problem/problem.css);
 @import url(./blocks/solution/solution.css);
+@import url(./blocks/about/about.css);
+
 html,
 body {
 	margin: 0;
