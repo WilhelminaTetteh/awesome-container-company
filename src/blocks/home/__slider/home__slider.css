@@ -1,5 +1,18 @@
 .home__slider {
-	width: 626px;
-	height: 416px;
-	background-color: #fdbc71;
+	position: relative;
+	width: 628px;
+	height: 367px;
+	border-radius: 20px;
+	/* background-color: #fdbc71; */
+	border: 1px solid #1c383c;
+	cursor: col-resize;
+	overflow: hidden;
 }
+/* .home__slider {
+	position: relative;
+	width: var(--image-comparison-slider-width);
+	overflow: hidden;
+	border-radius: 0.5rem;
+	box-shadow: -7px 5px 16px 1px rgba(56, 86, 122, 0.6);
+	cursor: col-resize;
+} */
