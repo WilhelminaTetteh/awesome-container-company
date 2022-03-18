@@ -1,4 +1,5 @@
 import React from "react";
+import container1 from "../images/container1.png";
 
 const cardList = {
   "features": [
@@ -52,15 +53,6 @@ const cardList = {
   ]
 }
  
-
-
-
- 
-
-
-
-
-
 const Solution = () => {
   return (
     <section className="solution">
@@ -69,17 +61,19 @@ const Solution = () => {
       <div className="solution__carousel">
         <button className="solution__button" />
         <div className="solution__card">
-          <img src="#" className="solution__card-image" alt="" />
+          <img src={container1} className="solution__card-image" alt="" />
           <div className="solution__card-text">
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
               {cardList.features[0].map((card) => {
-                return <li className="solution__card-item"></li>
+                return <li className="solution__card-item">{card}</li>
               })}
             </ul>
             <h3 className="solution__card-header">Sizing</h3>
             <ul className="solution__card-list">
-              <li className="solution__card-item"></li>
+            {cardList.sizing[0].map((card) => {
+                return <li className="solution__card-item">{card}</li>
+              })}
             </ul>
           </div>
         </div>
