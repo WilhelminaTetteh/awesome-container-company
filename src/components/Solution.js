@@ -83,9 +83,12 @@ const Solution = () => {
         <button className="solution__button solution__button_isRight" />
       </div>
       <div className="solution__visual">
-        <img src={image1} alt="#" className="solution__visual-image solution__visual-image_1"></img>
-        <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2"></img>
-        <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3"></img>
+        <img src={image1} alt="#" className="solution__visual-image solution__visual-image_1" />
+        <p className="solution__visual-text solution__visual-text_1">Backend logistics support</p>
+        <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2" />
+        <p className="solution__visual-text solution__visual-text_2">Save at least 50% on supply cost and time on inventory tracking/re-orders</p>
+        <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3" />
+        <p className="solution__visual-text solution__visual-text_3">Save storage space while removing tons of waste from our oceans and landfills</p>
       </div>
     </section>
   );

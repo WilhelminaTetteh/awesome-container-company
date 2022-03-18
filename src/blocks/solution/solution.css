@@ -12,6 +12,7 @@
 @import url(./__card-text/solution__card-text.css);
 @import url(./__visual/solution__visual.css);
 @import url(./__visual-image/solution__visual-image.css);
+@import url(./__visual-text/solution__visual-text.css);
 
 .solution {
   display: flex;
