@@ -28,12 +28,12 @@
 	user-select: none;
 }
 
-.handle-line {
+.home__slider-line {
 	width: 3px;
 	flex-grow: 1;
 	background-color: #ed9d40;
 }
-.handle-circle {
+.home__slider-circle {
 	color: #fff;
 	border-radius: 50%;
 	display: flex;

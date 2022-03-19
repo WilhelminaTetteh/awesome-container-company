@@ -5,6 +5,7 @@
 @import url(./blocks/problem/problem.css);
 @import url(./blocks/solution/solution.css);
 @import url(./blocks/about/about.css);
+@import url(./blocks/pricing/pricing.css);
 
 html,
 body {
