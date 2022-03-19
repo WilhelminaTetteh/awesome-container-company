@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Solution from './components/Solution';
 import About from './components/About';
 import Impact from './components/Impact';
+import Pricing from './components/Pricing';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Solution />
 				<About />
 				<Impact />
+				<Pricing />
 			</main>
 			<footer>Footer</footer>
 		</div>
