@@ -7,6 +7,8 @@ import Solution from './components/Solution';
 import About from './components/About';
 import Impact from './components/Impact';
 import Pricing from './components/Pricing';
+import Team from './components/Team';
+import Partners from './components/Partners';
 
 function App() {
 	return (
@@ -21,6 +23,8 @@ function App() {
 				<About />
 				<Impact />
 				<Pricing />
+				<Team />
+				<Partners />
 			</main>
 			<footer>Footer</footer>
 		</div>
