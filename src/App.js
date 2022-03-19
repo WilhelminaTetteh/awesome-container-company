@@ -5,6 +5,7 @@ import Problem from './components/Problem';
 import Navbar from './components/Navbar';
 import Solution from './components/Solution';
 import About from './components/About';
+import Impact from './components/Impact';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Problem />
 				<Solution />
 				<About />
+				<Impact />
 			</main>
 			<footer>Footer</footer>
 		</div>
