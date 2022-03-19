@@ -36,6 +36,7 @@ const About = () => {
           <br />Wash containers 
           <br />at commercial facility
         </p>
+        <p className="about__center-text">Circular ecosystem</p>
         <img src={arrow1} alt="diagonal down right arrow" className="about__arrow about__arrow_1" />
         <img src={arrow2} alt="diagonal down right arrow" className="about__arrow about__arrow_2" />
         <img src={arrow3} alt="diagonal down right arrow" className="about__arrow about__arrow_3" />
