@@ -69,13 +69,13 @@ const Solution = () => {
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
               {cardList.features[0].map((card) => {
-                return <li className="solution__card-item">{card}</li>
+                return <li className="solution__card-item" key={card}>{card}</li>
               })}
             </ul>
             <h3 className="solution__card-header">Sizing</h3>
             <ul className="solution__card-list">
             {cardList.sizing[0].map((card) => {
-                return <li className="solution__card-item">{card}</li>
+                return <li className="solution__card-item" key={card}>{card}</li>
               })}
             </ul>
           </div>
@@ -83,7 +83,7 @@ const Solution = () => {
         <button className="solution__button solution__button_isRight" />
       </div>
       <div className="solution__visual">
-        <img src={image1} alt="#" className="solution__visual-image solution__visual-image_1" />
+        <img src={image1} alt="container stick person holding 5 other containers" className="solution__visual-image solution__visual-image_1" />
         <p className="solution__visual-text solution__visual-text_1">Backend logistics support</p>
         <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2" />
         <p className="solution__visual-text solution__visual-text_2">Save at least 50% on supply cost and time on inventory tracking/re-orders</p>

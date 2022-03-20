@@ -1,11 +1,15 @@
 @import url(__bars/impact__bars.css);
+@import url(__card-bullet/impact__card-bullet.css);
 @import url(__card-header/impact__card-header.css);
+@import url(__card-image/impact__card-image.css);
+@import url(__card-list/impact__card-list.css);
 @import url(__card-text/impact__card-text.css);
 @import url(__card/impact__card.css);
 @import url(__cards/impact__cards.css);
 @import url(__circles/impact__circles.css);
 @import url(__dot/impact__dot.css);
 @import url(__header/impact__header.css);
+@import url(__list-item/impact__list-item.css);
 @import url(__table/impact__table.css);
 
 
@@ -13,4 +17,5 @@
   position: relative;
   background-color: #f4f4f4;
   height: 1671px;
+  z-index: -2;
 }

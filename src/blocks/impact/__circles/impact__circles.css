@@ -2,7 +2,10 @@
   position: absolute;
   width: 249px;
   height: 118px;
-  top: 141px;
-  right: 252px;
-  z-index: 0;
+  display: flex;
+  align-self: center;
+  z-index: -1;
+  top: -91px;
+  background-image: url(../../../images/circles.png);
+  background-size: contain;
 }

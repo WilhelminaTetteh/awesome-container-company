@@ -2,6 +2,10 @@
   position: absolute;
   width: 241px;
   height: 143px;
-  top: 129px;
-  left: 243px;
+  display: flex;
+  align-self: center;
+  top: -103px;
+  background-image: url(../../../images/bars.png);
+  background-size: contain;
+  z-index: -1;
 }
