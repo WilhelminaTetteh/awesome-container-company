@@ -72,23 +72,18 @@ const Solution = () => {
 
   const nextCard = (e) => {
     e.preventDefault();
-    console.log(e.target.className);
 
     if (e.target.className === "solution__button") {
       if (selectedCard.key === 1) {
-        console.log(cardList[2]);
         setSelectedCard(cardList[2]);
         return;
       } 
-      console.log(cardList[selectedCard.key - 2]);
       setSelectedCard(cardList[selectedCard.key - 2]);
     } else {
       if (selectedCard.key === 3) {
-        console.log(cardList[0]);
         setSelectedCard(cardList[0])
         return;
       }
-      console.log(cardList[selectedCard.key]);
       setSelectedCard(cardList[selectedCard.key]);
     }
   }
