@@ -1,5 +1,7 @@
 import React from "react";
 import card1 from "../images/card1.png";
+import card2 from "../images/card2.png";
+import card3 from "../images/card3.png";
 import image1 from "../images/solution1.png";
 import image2 from "../images/solution2.png";
 import image3 from "../images/solution3.png";
@@ -7,7 +9,7 @@ import image3 from "../images/solution3.png";
 const cardList = [
   {
     key: 1,
-    image: image1,
+    image: card1,
     features: [
       "Removable/adjustable divider",
       "Leak-resistant lid keeps food fresh",
@@ -26,7 +28,7 @@ const cardList = [
   },
   {
     key: 2,
-    image: image2,
+    image: card2,
     features: [
       "Leak-resistant lid keeps food fresh",
       "Easy to sanitize and dishwasher safe",
@@ -46,7 +48,7 @@ const cardList = [
   },
   {
     key: 3,
-    image: image3,
+    image: card3,
     features: [
       "Removable 2-section + 4-section divider",
       "Leak-resistant lid keeps food fresh",
@@ -73,9 +75,21 @@ const Solution = () => {
     console.log(e.target.className);
 
     if (e.target.className === "solution__button") {
-      console.log("Left button was pressed")
+      if (selectedCard.key === 1) {
+        console.log(cardList[2]);
+        setSelectedCard(cardList[2]);
+        return;
+      } 
+      console.log(cardList[selectedCard.key - 2]);
+      setSelectedCard(cardList[selectedCard.key - 2]);
     } else {
-      console.log("Right button was pressed")
+      if (selectedCard.key === 3) {
+        console.log(cardList[0]);
+        setSelectedCard(cardList[0])
+        return;
+      }
+      console.log(cardList[selectedCard.key]);
+      setSelectedCard(cardList[selectedCard.key]);
     }
   }
 
@@ -83,10 +97,12 @@ const Solution = () => {
     <section className="solution" id="solution">
       <h2 className="solution__header">Sustainability Delivered</h2>
       <p className="solution__text"><span className="solution__text-span">Awesome Container Company</span> replaces single-use packaging with reusable stainless steel containers</p>
+
       <div className="solution__carousel">
         <button className="solution__button" onClick={nextCard} />
+
         <div className="solution__card">
-          <img src={card1} alt="" className="solution__card-image" />
+          <img src={selectedCard.image} alt="" className="solution__card-image" />
           <article className="solution__card-text">
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
@@ -102,8 +118,10 @@ const Solution = () => {
             </ul>
           </article>
         </div>
+
         <button className="solution__button solution__button_isRight" onClick={nextCard} />
       </div>
+
       <div className="solution__visual">
         <img src={image1} alt="container stick person holding 5 other containers" className="solution__visual-image solution__visual-image_1" />
         <p className="solution__visual-text solution__visual-text_1">Backend logistics support</p>
