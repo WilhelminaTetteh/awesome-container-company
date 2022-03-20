@@ -65,7 +65,7 @@ const Solution = () => {
         <button className="solution__button" />
         <div className="solution__card">
           <img src={card1} alt="" className="solution__card-image" />
-          <div className="solution__card-text">
+          <article className="solution__card-text">
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
               {cardList.features[0].map((card) => {
@@ -78,7 +78,7 @@ const Solution = () => {
                 return <li className="solution__card-item" key={card}>{card}</li>
               })}
             </ul>
-          </div>
+          </article>
         </div>
         <button className="solution__button solution__button_isRight" />
       </div>

@@ -25,6 +25,10 @@ const cards = [
   }
 ]
 
+const table = {
+
+}
+
 const Impact = () => {
   return (
     <section className="impact" id="impact">
@@ -32,7 +36,7 @@ const Impact = () => {
       <div className="impact__cards">
         {cards.map(({key, decoration, header, text}) => {
           return (
-            <div key={key} className="impact__card">
+            <article key={key} className="impact__card">
               <div className={decoration} />
               <h3 className="impact__card-header">{header}</h3>
               <ul className="impact__card-list">
@@ -45,12 +49,15 @@ const Impact = () => {
                   )
                 })}
               </ul>
-            </div>
+            </article>
           )
         })}
       </div>
       <div className="impact__competition">
         <h2 className="impact__header">The competition is no match</h2>
+        <article className="impact__table">
+
+        </article>
       </div>
     </section>
   )

@@ -1,7 +1,7 @@
 .solution__card {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 3px;
   max-width: 1212px;
   max-height: 600px;
   display: grid;
