@@ -11,6 +11,10 @@
 @import url(__header/impact__header.css);
 @import url(__list-item/impact__list-item.css);
 @import url(__table/impact__table.css);
+@import url(__table-cell/impact__table-cell.css);
+@import url(__table-dot/impact__table-dot.css);
+@import url(__table-highlight/impact__table-highlight.css);
+@import url(__table-text/impact__table-text.css);
 
 
 .impact {
