@@ -1,0 +1,7 @@
+@import url('./__heading/partners__heading.css');
+@import url('./__list/partners__list.css');
+@import url('./__list-item/partners__list-item.css');
+@import url('./__logo/partners__logo.css');
+.partners {
+	padding-bottom: 151px;
+}

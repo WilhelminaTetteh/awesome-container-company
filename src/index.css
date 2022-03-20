@@ -7,6 +7,8 @@
 @import url(./blocks/about/about.css);
 @import url(./blocks/impact/impact.css);
 @import url(./blocks/pricing/pricing.css);
+@import url(./blocks/team/team.css);
+@import url(./blocks/partners/partners.css);
 
 html,
 body {

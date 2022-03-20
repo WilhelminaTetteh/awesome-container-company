@@ -1,0 +1,7 @@
+.team__list-item {
+	margin: 0 0px 0 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
