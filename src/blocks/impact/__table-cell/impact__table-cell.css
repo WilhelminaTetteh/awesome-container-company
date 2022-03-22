@@ -3,9 +3,14 @@
 @import url(_none/impact__table-cell_none.css);
 
 .impact__table-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   color: #1c383c;
   border-bottom: 1px solid #B6B6B6;
   border-right: 1px solid #B6B6B6;
   margin: 0;
   text-align: center;
+  align-content: center;
 }

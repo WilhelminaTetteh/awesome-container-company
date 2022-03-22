@@ -1,5 +1,7 @@
 .impact__cards {
+  position: relative;
   display: flex;
   justify-content: space-evenly;
   margin-top: 60px;
+  z-index: 1;
 }

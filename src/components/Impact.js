@@ -36,8 +36,8 @@ const table = [
   {
     key: 2,
     content: "Awesome Container Company",
-    cclass: "impact__table-text",
-    tclass: "impact__table-cell impact__table-highlight"
+    cclass: "impact__table-text impact__table-text_highlight",
+    tclass: "impact__table-cell"
   },
   {
     key: 3,
@@ -72,8 +72,8 @@ const table = [
   {
     key: 8,
     content: "",
-    cclass: "impact__table-dot",
-    tclass: "impact__table-cell impact__table-highlight"
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
   },
   {
     key: 9,
@@ -108,8 +108,8 @@ const table = [
   {
     key: 14,
     content: "",
-    cclass: "impact__table-dot",
-    tclass: "impact__table-cell impact__table-highlight"
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
   },
   {
     key: 15,
@@ -135,17 +135,197 @@ const table = [
     cclass: "",
     tclass: "impact__table-cell impact__table-cell_end"
   },
+  {
+    key: 19,
+    content: "Inventory management",
+    cclass: "impact__table-text",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 20,
+    content: "",
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 21,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 22,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 23,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 24,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_end"
+  },
+  {
+    key: 25,
+    content: "Never reorder supplies",
+    cclass: "impact__table-text",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 26,
+    content: "",
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 27,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 28,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 29,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 30,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_end"
+  },
+  {
+    key: 31,
+    content: "Easy pickup and delivery",
+    cclass: "impact__table-text",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 32,
+    content: "",
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 33,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 34,
+    content: "",
+    cclass: "impact__table-dot",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 35,
+    content: "",
+    cclass: "impact__table-dot",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 36,
+    content: "",
+    cclass: "impact__table-dot",
+    tclass: "impact__table-cell impact__table-cell_end"
+  },
+  {
+    key: 37,
+    content: "Sustainable products",
+    cclass: "impact__table-text",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 38,
+    content: "",
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 39,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 40,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 41,
+    content: "",
+    cclass: "impact__table-dot",
+    tclass: "impact__table-cell"
+  },
+  {
+    key: 42,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_end"
+  },
+  {
+    key: 43,
+    content: "App for tracking and reporting",
+    cclass: "impact__table-text",
+    tclass: "impact__table-cell impact__table-cell_bottom"
+  },
+  {
+    key: 44,
+    content: "",
+    cclass: "impact__table-dot_highlight",
+    tclass: "impact__table-cell impact__table-cell_bottom"
+  },
+  {
+    key: 45,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_bottom"
+  },
+  {
+    key: 46,
+    content: "",
+    cclass: "impact__table-dot",
+    tclass: "impact__table-cell impact__table-cell_bottom"
+  },
+  {
+    key: 47,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_bottom"
+  },
+  {
+    key: 48,
+    content: "",
+    cclass: "",
+    tclass: "impact__table-cell impact__table-cell_none"
+  },
 ]
 const tableContent = (content, cclass) => {
   if (cclass === "impact__table-logo") {
     return (
       <img src={content} alt="Awesome Container Company logo" className={cclass} />
     )
-  } else if (cclass === "impact__table-dot") {
+  } else if (cclass.search("impact__table-dot") > -1) {
     return (
       <div className={cclass} />
     )
-  } else if (cclass === "impact__table-text") {
+  } else if (cclass.search("impact__table-text") > -1) {
     return (
       <p className={cclass}>{content}</p>
     )
@@ -166,7 +346,7 @@ const Impact = () => {
                 {text.map((line) => {
                   return (
                     <li key={line} className="impact__list-item">
-                      <img className="impact__card-bullet" src={bullet} />
+                      <div className="impact__card-bullet" />
                       <p className="impact__card-text">{line}</p>
                     </li>
                   )

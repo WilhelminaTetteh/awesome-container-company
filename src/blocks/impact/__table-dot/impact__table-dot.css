@@ -1,3 +1,5 @@
+@import url(_highlight/impact__table-dot_highlight.css);
+
 .impact__table-dot {
   background-image: url(../../../images/dot.svg);
   height: 20px;

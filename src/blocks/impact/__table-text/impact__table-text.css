@@ -1,8 +1,12 @@
+@import url(_highlight/impact__table-text_highlight.css);
+
 .impact__table-text {
-  margin: auto;
+  margin: auto 0;
+  padding: auto;
   font-family: 'Spline Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  max-width: 160px;
 }
