@@ -5,7 +5,7 @@ import plasticSorting from '../images/plasticSorting.svg';
 
 const Problem = () => {
 	return (
-		<div className='problem'>
+		<section className='problem' id='problem'>
 			<div className='problem__container'>
 				<div className='problem__info-container'>
 					<div className='problem__chart'></div>
@@ -63,7 +63,7 @@ const Problem = () => {
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

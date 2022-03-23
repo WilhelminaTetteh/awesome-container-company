@@ -5,7 +5,7 @@ import Catella from '../images/Catella.svg';
 import linkedIn from '../images/linkedIn.svg';
 const Team = () => {
 	return (
-		<section className='team'>
+		<section className='team' id='team'>
 			<h3 className='team__heading'>An Awesome Team</h3>
 			<ul className='team__list'>
 				<li className='team__list-item'>

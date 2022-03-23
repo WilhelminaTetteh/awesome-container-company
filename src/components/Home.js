@@ -5,7 +5,7 @@ import slider1 from '../images/slider1.svg';
 import slider2 from '../images/slider2.svg';
 const Home = () => {
 	return (
-		<div className='home'>
+		<section className='home' id='home'>
 			<h1 className='home__header'>
 				Help our environment by eliminating single-use plastics from
 				your delivery with{' '}
@@ -44,7 +44,7 @@ const Home = () => {
 					<img src={dialogue} alt='dialogue' />
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

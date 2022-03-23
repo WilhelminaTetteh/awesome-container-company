@@ -2,8 +2,8 @@ import React from 'react';
 import pricing2 from '../images/pricing2.svg';
 const Pricing = () => {
 	return (
-		<div className='pricing'>
-			<section className='pricing__section1'>
+		<section className='pricing' id='pricing'>
+			<div className='pricing__section1'>
 				<h3 className='pricing__header'>
 					We are an ESG company:{' '}
 					<span style={{ display: 'block' }}>
@@ -19,8 +19,8 @@ const Pricing = () => {
 					its solution to cultivating a Sustainable Living — 1 of the
 					5 key programmes of SG Green Plan.
 				</p>
-			</section>
-			<section className='pricing__section2'>
+			</div>
+			<div className='pricing__section2'>
 				<h3 className='pricing__calculation'>
 					Get in touch with us to calculate prices{' '}
 					<span className='pricing__calculation-span'>
@@ -37,8 +37,8 @@ const Pricing = () => {
 					Leave your contacts and request, and our manager will reach
 					out to you to establish our futher parntership!
 				</p>
-			</section>
-		</div>
+			</div>
+		</section>
 	);
 };
 
