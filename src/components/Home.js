@@ -29,13 +29,13 @@ const Home = () => {
 						image2={slider2}
 						sliderColor='#ED9D40'
 						customHandle={
-							<div class='handle'>
-								<div class='home__slider-line'></div>
-								<div class='home__slider-circle'>
+							<div className='handle'>
+								<div className='home__slider-line'></div>
+								<div className='home__slider-circle'>
 									<i className='fas fa-chevron-left home__slider-icon'></i>
 									<i className='fas fa-chevron-right  home__slider-icon'></i>
 								</div>
-								<div class='home__slider-line'></div>
+								<div className='home__slider-line'></div>
 							</div>
 						}
 					/>
