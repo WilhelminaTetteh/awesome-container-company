@@ -1,7 +1,3 @@
-@import url(_end/impact__table-cell_end.css);
-@import url(_low/impact__table-cell_low.css);
-@import url(_none/impact__table-cell_none.css);
-
 .impact__table-cell {
   display: flex;
   justify-content: center;
