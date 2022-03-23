@@ -12,32 +12,32 @@ const Navbar = () => {
 			</div>
 			<ul className='navbar__items'>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/problem'>
+					<a className='navbar__link' href='#problem'>
 						The Problem
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/solution'>
+					<a className='navbar__link' href='#solution'>
 						Sustainable Solution
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/solution'>
+					<a className='navbar__link' href='#impact'>
 						Impact
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/solution'>
+					<a className='navbar__link' href='#pricing'>
 						Pricing
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/solution'>
+					<a className='navbar__link' href='#team'>
 						Team
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<a className='navbar__link' href='/solution'>
+					<a className='navbar__link' href='#footer'>
 						Contacts
 					</a>
 				</li>
