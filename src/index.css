@@ -9,6 +9,7 @@
 @import url(./blocks/pricing/pricing.css);
 @import url(./blocks/team/team.css);
 @import url(./blocks/partners/partners.css);
+@import url(./blocks/footer/footer.css);
 
 html,
 body {

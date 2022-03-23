@@ -2,11 +2,15 @@
 @import url(__header/footer__header.css);
 @import url(__link/footer__link.css);
 @import url(__social/footer__social.css);
+@import url(__terms/footer__terms.css);
+@import url(__text/_inline/footer__text_inline.css);
+@import url(__text/_small/footer__text_small.css);
 @import url(__text/footer__text.css);
 
 .footer {
   background-color: #1c383c;
   display: flex;
-  gap: 180px;
+  justify-content: space-between;
   margin: 0;
+  padding: 80px 80px 60px 80px;
 }

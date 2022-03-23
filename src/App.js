@@ -8,6 +8,7 @@ import Impact from './components/Impact';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
 import Partners from './components/Partners';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -25,7 +26,7 @@ function App() {
 				<Team />
 				<Partners />
 			</main>
-			<footer>Footer</footer>
+			<Footer />
 		</div>
 	);
 }
