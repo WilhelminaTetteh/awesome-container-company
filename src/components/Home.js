@@ -1,8 +1,8 @@
 import React from 'react';
 import ImageSlider from 'react-image-comparison-slider';
 import dialogue from '../images/dialogue.svg';
-import slider1 from '../images/slider1.svg';
-import slider2 from '../images/slider2.svg';
+import sliderTrash from '../images/sliderTrash.svg';
+import sliderContainers from '../images/sliderContainers.svg';
 const Home = () => {
 	return (
 		<section className='home' id='home'>
@@ -18,15 +18,15 @@ const Home = () => {
 
 				<div
 					style={{
-						width: 700,
-						height: 450,
+						width: 628,
+						height: 369,
 						borderRadius: '20px',
 						border: '1px solid #1C383C ',
 						overflow: 'hidden',
 					}}>
 					<ImageSlider
-						image1={slider1}
-						image2={slider2}
+						image2={sliderTrash}
+						image1={sliderContainers}
 						sliderColor='#ED9D40'
 						customHandle={
 							<div className='handle'>
