@@ -1,0 +1,10 @@
+.modal__button {
+	background-image: url('../../../images/closebtn.svg');
+	background-position: center;
+	/* border: 1px solid red; */
+	border: none;
+	width: 40px;
+	height: 40px;
+	margin-left: 708px;
+	margin-top: 12px;
+}

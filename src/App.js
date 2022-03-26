@@ -9,24 +9,28 @@ import Pricing from './components/Pricing';
 import Team from './components/Team';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 function App() {
 	return (
-		<div className='App'>
-			<header>
-				<Navbar />
-			</header>
-			<main>
-				<Home />
-				<Problem />
-				<Solution />
-				<About />
-				<Impact />
-				<Pricing />
-				<Team />
-				<Partners />
-			</main>
-			<Footer />
+		<div className='page'>
+			<div className='page__container'>
+				<header>
+					<Navbar />
+				</header>
+				<main>
+					<Home />
+					{/* <Problem /> */}
+					<Solution />
+					<About />
+					<Impact />
+					<Pricing />
+					<Team />
+					<Partners />
+				</main>
+				<Footer />
+				{/* <ContactForm /> */}
+			</div>
 		</div>
 	);
 }

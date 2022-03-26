@@ -5,9 +5,11 @@
 .navbar {
 	background: #ffffff;
 	height: 80px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	/* justify-content: space-around; */
 	position: fixed;
-	width: 100vw;
 	z-index: 5;
+	overflow: hidden;
 }
