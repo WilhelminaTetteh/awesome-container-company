@@ -1,11 +1,11 @@
 .impact__bars {
-  position: absolute;
-  width: 241px;
-  height: 143px;
-  align-self: center;
-  top: -103px;
-  background-image: url(../../../images/bars.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
+	position: absolute;
+	width: 241px;
+	height: 143px;
+	align-self: center;
+	top: -103px;
+	background-image: url(../../../images/bars.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* z-index: 1; */
 }

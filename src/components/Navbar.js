@@ -1,7 +1,7 @@
 import React from 'react';
 // import './Navbar.css';
 import logo from '../images/logo.svg';
-const Navbar = () => {
+const Navbar = ({ onContactButtonClick }) => {
 	return (
 		<nav className='navbar'>
 			<div className='logo'>
@@ -42,7 +42,11 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li className='navbar__item'>
-					<button className='navbar__button'>Work with us</button>
+					<button
+						onClick={onContactButtonClick}
+						className='navbar__button'>
+						Work with us
+					</button>
 				</li>
 			</ul>
 		</nav>

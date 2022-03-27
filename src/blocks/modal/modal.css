@@ -1,5 +1,17 @@
 @import url(./__container/modal__container.css);
 @import url(./__button/modal__button.css);
+@import url(./_open/modal_open.css);
 
 .modal {
+	background-color: #0000007d;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transform: 'translate(-50%, -50%)';
+	/* visibility: hidden; */
 }

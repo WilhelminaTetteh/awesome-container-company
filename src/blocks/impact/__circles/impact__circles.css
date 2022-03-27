@@ -1,11 +1,11 @@
 .impact__circles {
-  position: absolute;
-  width: 249px;
-  height: 118px;
-  align-self: center;
-  top: -91px;
-  background-image: url(../../../images/circles.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
+	position: absolute;
+	width: 249px;
+	height: 118px;
+	align-self: center;
+	top: -91px;
+	background-image: url(../../../images/circles.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* z-index: 1; */
 }
