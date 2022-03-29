@@ -34,33 +34,46 @@ const Problem = () => {
 						</p>
 					</div>
 				</div>
-			</div>
-			{/* grid */}
-			<div className='problem__cards'>
-				<div className='problem__card'>
-					<div className='problem__card-image'>
-						<img src={turtle} alt='' />
+				{/* grid */}
+				<div className='problem__cards'>
+					<div className='problem__card'>
+						<div>
+							<img
+								className='problem__card-image'
+								src={turtle}
+								alt=''
+							/>
+						</div>
+						<p className='problem__card-text'>
+							Single-use plastics pollute oceans and kill marine
+							species
+						</p>
 					</div>
-					<p className='problem__card-text'>
-						Single-use plastics pollute oceans and kill marine species
-					</p>
-				</div>
-				<div className='problem__card'>
-					<div className='problem__card-image'>
-						<img src={trashpile} alt='' />
+					<div className='problem__card'>
+						<div>
+							<img
+								className='problem__card-image'
+								src={trashpile}
+								alt=''
+							/>
+						</div>
+						<p className='problem__card-text'>
+							Single-use plastics pollute landfills and emit dangerous
+							chemicals and greenshouse gases
+						</p>
 					</div>
-					<p className='problem__card-text'>
-						Single-use plastics pollute landfills and emit dangerous
-						chemicals and greenshouse gases
-					</p>
-				</div>
-				<div className='problem__card'>
-					<div className='problem__card-image'>
-						<img src={plasticSorting} alt='' />
+					<div className='problem__card'>
+						<div>
+							<img
+								className='problem__card-image'
+								src={plasticSorting}
+								alt=''
+							/>
+						</div>
+						<p className='problem__card-text'>
+							Not all of the single-use plastics are recyclable
+						</p>
 					</div>
-					<p className='problem__card-text'>
-						Not all of the single-use plastics are recyclable
-					</p>
 				</div>
 			</div>
 		</section>

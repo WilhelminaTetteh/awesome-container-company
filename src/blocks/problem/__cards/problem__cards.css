@@ -1,6 +1,8 @@
 .problem__cards {
 	margin-top: 80px;
+	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
+	width: 1160.01px;
 	justify-content: space-between;
 }

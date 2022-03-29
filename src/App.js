@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './components/Home';
-// import Problem from './components/Problem';
+import Problem from './components/Problem';
 import Navbar from './components/Navbar';
 import Solution from './components/Solution';
 import About from './components/About';
@@ -30,7 +30,7 @@ function App() {
 				</header>
 				<main>
 					<Home />
-					{/* <Problem /> */}
+					<Problem />
 					<Solution />
 					<About onContactButtonClick={openModal} />
 					<Impact />
