@@ -10,6 +10,7 @@
 @import url(__list-item/impact__list-item.css);
 @import url(__table/impact__table.css);
 @import url(__table-cell/impact__table-cell.css);
+@import url(__table-cell/_bottom/impact__table-cell_bottom.css);
 @import url(__table-cell/_end/impact__table-cell_end.css);
 @import url(__table-cell/_low/impact__table-cell_low.css);
 @import url(__table-cell/_none/impact__table-cell_none.css);
