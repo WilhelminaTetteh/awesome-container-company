@@ -7,3 +7,8 @@
 	line-height: 24px;
 	color: #fff;
 }
+@media (max-width: 1024px) {
+	.problem__text {
+		width: 515.42px;
+	}
+}

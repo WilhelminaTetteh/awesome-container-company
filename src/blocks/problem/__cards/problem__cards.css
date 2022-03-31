@@ -6,3 +6,8 @@
 	width: 1160.01px;
 	justify-content: space-between;
 }
+@media (max-width: 1024px) {
+	.problem__cards {
+		width: 100%;
+	}
+}

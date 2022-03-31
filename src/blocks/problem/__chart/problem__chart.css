@@ -8,3 +8,8 @@
 	background-repeat: no-repeat;
 	margin-right: 73px;
 }
+@media (max-width: 1024px) {
+	.problem__chart {
+		margin-right: 54px;
+	}
+}

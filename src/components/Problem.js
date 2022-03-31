@@ -1,7 +1,5 @@
 import React from 'react';
-import turtle from '../images/turtle.svg';
-import trashpile from '../images/trashpile.svg';
-import plasticSorting from '../images/plasticSorting.svg';
+import { problems } from '../constants/constants';
 
 const Problem = () => {
 	return (
@@ -15,7 +13,11 @@ const Problem = () => {
 								Single-use packaging:
 							</h2>
 							<h2 className='problem__header'>
-								bad for the planet, bad for business
+								bad for the planet,{' '}
+								<span className='problem__header-span'>
+									{' '}
+									bad for business
+								</span>
 							</h2>
 						</div>
 						<p className='problem__text'>
@@ -36,44 +38,20 @@ const Problem = () => {
 				</div>
 				{/* grid */}
 				<div className='problem__cards'>
-					<div className='problem__card'>
-						<div>
-							<img
-								className='problem__card-image'
-								src={turtle}
-								alt=''
-							/>
-						</div>
-						<p className='problem__card-text'>
-							Single-use plastics pollute oceans and kill marine
-							species
-						</p>
-					</div>
-					<div className='problem__card'>
-						<div>
-							<img
-								className='problem__card-image'
-								src={trashpile}
-								alt=''
-							/>
-						</div>
-						<p className='problem__card-text'>
-							Single-use plastics pollute landfills and emit dangerous
-							chemicals and greenshouse gases
-						</p>
-					</div>
-					<div className='problem__card'>
-						<div>
-							<img
-								className='problem__card-image'
-								src={plasticSorting}
-								alt=''
-							/>
-						</div>
-						<p className='problem__card-text'>
-							Not all of the single-use plastics are recyclable
-						</p>
-					</div>
+					{problems.map((problem, id) => {
+						return (
+							<div key={id} className='problem__card'>
+								<div className='problem__card-image'>
+									<img
+										className='problem__card-image'
+										src={problem.src}
+										alt={problem.alt}
+									/>
+								</div>
+								<p className='problem__card-text'>{problem.text}</p>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</section>

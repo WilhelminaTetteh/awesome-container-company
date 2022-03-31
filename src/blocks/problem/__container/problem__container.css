@@ -1,3 +1,9 @@
 .problem__container {
 	margin-left: 140px;
 }
+@media (max-width: 1024px) {
+	.problem__container {
+		margin-left: 21px;
+		margin-right: 21px;
+	}
+}

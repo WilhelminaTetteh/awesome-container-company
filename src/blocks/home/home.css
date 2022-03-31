@@ -2,12 +2,15 @@
 @import url(./__header-span/home__header-span.css);
 @import url(./__slider/home__slider.css);
 @import url(./__visuals/home__visuals.css);
+@import url(./__slider-container/home__slider-container.css);
+@import url(./__slider-states/home__slider-states.css);
+@import url(./__dialogue/home__dialogue.css);
 :root {
 	--image-comparison-slider-width: min(80vw, 768px);
 	--image-comparison-slider-handle-width: 50px;
 }
 .home {
-	padding: 150px 40px 40px 40px;
+	padding: 155px 40px 30px 40px;
 }
 
 /* .home__slider {

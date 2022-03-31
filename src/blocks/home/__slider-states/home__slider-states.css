@@ -1,0 +1,9 @@
+.home__slider-states {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}

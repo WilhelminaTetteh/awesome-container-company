@@ -1,4 +1,5 @@
 import React from 'react';
+import { team } from '../constants/constants';
 import Hung from '../images/Hung.svg';
 import Edwin from '../images/Edwin.svg';
 import Catella from '../images/Catella.svg';
@@ -8,36 +9,24 @@ const Team = () => {
 		<section className='team' id='team'>
 			<h3 className='team__heading'>An Awesome Team</h3>
 			<ul className='team__list'>
-				<li className='team__list-item'>
-					<div className='team__image-wrapper'>
-						<img src={Hung} alt='' className='team__image' />
-					</div>
-					<p className='team__name'>Hung Lam</p>
-					<p className='team__title'>Founder / CEO</p>
-					<a className='team__linkedin' href=''>
-						<img src={linkedIn} alt='' />
-					</a>
-				</li>
-				<li className='team__list-item'>
-					<div className='team__image-wrapper'>
-						<img src={Edwin} alt='' className='team__image' />
-					</div>
-					<p className='team__name'>Edwin Phua</p>
-					<p className='team__title'>Co-founder / COO</p>
-					<a className='team__linkedin' href=''>
-						<img src={linkedIn} alt='' />
-					</a>
-				</li>
-				<li className='team__list-item'>
-					<div className='team__image-wrapper'>
-						<img src={Catella} alt='' className='team__image' />
-					</div>
-					<p className='team__name'>Guillaume Catella</p>
-					<p className='team__title'>Co-founder / CTO</p>
-					<a className='team__linkedin' href=''>
-						<img src={linkedIn} alt='' />
-					</a>
-				</li>
+				{team.map((teamMember, id) => {
+					return (
+						<li className='team__list-item'>
+							<div className='team__image-wrapper'>
+								<img
+									src={teamMember.src}
+									alt=''
+									className='team__image'
+								/>
+							</div>
+							<p className='team__name'>{teamMember.name}</p>
+							<p className='team__title'>{teamMember.title}</p>
+							<a className='team__linkedin' href=''>
+								<img src={teamMember.linkedIn} alt='' />
+							</a>
+						</li>
+					);
+				})}
 			</ul>
 		</section>
 	);

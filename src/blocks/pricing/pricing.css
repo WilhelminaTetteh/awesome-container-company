@@ -10,9 +10,9 @@
 @import url(./__text/pricing__text.css);
 
 .pricing {
-	padding: 250px 0 240px 0;
+	padding: 250px 0 220px 0;
 	/* border: 1px solid red;  */
 	background-image: url('../../images/pricing1.svg');
 	background-repeat: no-repeat;
-	background-position: 80% 10%;
+	background-position: 79% 4.5%;
 }

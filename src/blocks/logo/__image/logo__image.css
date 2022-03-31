@@ -1,0 +1,8 @@
+.logo__image {
+}
+@media (max-width: 1024px) {
+	.logo__image {
+		width: 89.98px;
+		height: 49.99px;
+	}
+}

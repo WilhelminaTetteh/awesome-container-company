@@ -1,4 +1,11 @@
 .problem__info-container {
 	display: flex;
+	margin: 0 auto;
 	/* justify-content: space-between; */
 }
+/* @media (max-width: 1024px) {
+	.problem__info-container {
+		width: 40.4%;
+	
+	}
+} */

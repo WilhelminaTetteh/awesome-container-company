@@ -11,11 +11,12 @@
 @import url(./__card/problem__card.css);
 @import url(./__card-image/problem__card-image.css);
 @import url(./__card-text/problem__card-text.css);
+@import url(./__header-span/problem__header-span.css);
 
 .problem {
-	/* height: 1037px; */
 	background-color: #1c383c;
-	width: 100vw;
 	padding: 120px 0;
-	/* padding: auto; */
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
 }

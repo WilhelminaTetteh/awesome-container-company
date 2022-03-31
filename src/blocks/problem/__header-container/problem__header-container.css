@@ -1,4 +1,11 @@
 .problem__header-container {
-	width: 708px;
+	/* width: 708px; */
+	margin-top: 56px;
 	margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+	.problem__header-container {
+		/* width: 708px; */
+		margin-bottom: 40px;
+	}
 }

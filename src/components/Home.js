@@ -15,33 +15,34 @@ const Home = () => {
 			</h1>
 			<div className='home__visuals'>
 				{/* slider starts */}
-
-				<div
-					style={{
-						width: 628,
-						height: 369,
-						borderRadius: '20px',
-						border: '1px solid #1C383C ',
-						overflow: 'hidden',
-					}}>
-					<ImageSlider
-						image2={sliderTrash}
-						image1={sliderContainers}
-						sliderColor='#ED9D40'
-						customHandle={
-							<div className='handle'>
-								<div className='home__slider-line'></div>
-								<div className='home__slider-circle'>
-									<i className='fas fa-chevron-left home__slider-icon'></i>
-									<i className='fas fa-chevron-right  home__slider-icon'></i>
+				<div className='home__slider-container'>
+					<div className='home__slider'>
+						<ImageSlider
+							image2={sliderTrash}
+							image1={sliderContainers}
+							sliderColor='#ED9D40'
+							customHandle={
+								<div className='handle'>
+									<div className='home__slider-line'></div>
+									<div className='home__slider-circle'>
+										<i className='fas fa-chevron-left home__slider-icon'></i>
+										<i className='fas fa-chevron-right  home__slider-icon'></i>
+									</div>
+									<div className='home__slider-line'></div>
 								</div>
-								<div className='home__slider-line'></div>
-							</div>
-						}
-					/>
+							}
+						/>
+					</div>
+					<div className='home__slider-states'>
+						<p className='home__slider-before'>Now</p>
+						<p className='home__slider-after'>
+							With Awesome Containers
+						</p>
+					</div>
 				</div>
+
 				<div className='home__dialogue'>
-					<img src={dialogue} alt='dialogue' />
+					{/* <img src={dialogue} alt='dialogue' /> */}
 				</div>
 			</div>
 		</section>

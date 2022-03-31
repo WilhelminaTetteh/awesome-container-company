@@ -6,7 +6,11 @@ const Navbar = ({ onContactButtonClick }) => {
 		<nav className='navbar'>
 			<div className='logo'>
 				<a className='logo__link' href='#home'>
-					<img src={logo} alt='company-logo' />
+					<img
+						className='logo__image'
+						src={logo}
+						alt='company-logo'
+					/>
 					<p className='logo__text'>Awesome Container Company</p>
 				</a>
 			</div>

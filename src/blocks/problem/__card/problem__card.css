@@ -1,3 +1,8 @@
 .problem__card {
 	width: 346.67px;
 }
+@media (max-width: 1024px) {
+	.problem__card {
+		width: 314px;
+	}
+}

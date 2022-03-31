@@ -9,9 +9,14 @@
 	padding: 13px 24px;
 	background-color: #ff9820;
 	border-radius: 10px;
-	margin-right: 40px;
+	margin: 0 40px 0 40px;
 }
 
 .navbar__button:hover {
 	background-color: #e78819;
+}
+@media (max-width: 1024px) {
+	.navbar__button {
+		margin: auto 20px auto 20px;
+	}
 }
