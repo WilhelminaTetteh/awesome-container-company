@@ -2,7 +2,7 @@
 @import url(./__text/logo__text.css);
 @import url(./__image/logo__image.css);
 .logo {
-	margin: auto 350px auto 20px;
+	margin: auto 40px;
 	align-self: center;
 	justify-self: center;
 }
