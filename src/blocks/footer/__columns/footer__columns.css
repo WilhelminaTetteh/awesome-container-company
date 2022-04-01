@@ -1,0 +1,7 @@
+.footer__columns {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 80px 60px 80px;
+  display: flex;
+  justify-content: space-between;
+}

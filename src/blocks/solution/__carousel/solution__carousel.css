@@ -1,5 +1,7 @@
 .solution__carousel {
-  margin: 40px 0 0;
+  max-width: 1440px;
+  width: 100%;
+  margin: 40px auto 0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
