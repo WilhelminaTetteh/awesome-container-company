@@ -1,7 +1,8 @@
 .solution__visual {
-  position: relative;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
   max-width: 1440px;
-  height: 850px;
+  width: calc(100vw - 96px);
   margin: 0 auto;
 }

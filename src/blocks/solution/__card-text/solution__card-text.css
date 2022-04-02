@@ -7,3 +7,10 @@
   color: #1C383C;
   margin-right: 62px;
 }
+
+@media (max-width: 767px) {
+  .solution__card-text {
+    margin: 0 auto;
+    max-width: 303px;
+  }
+}
