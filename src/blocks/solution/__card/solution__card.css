@@ -12,5 +12,6 @@
   .solution__card {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+    padding-bottom: 60px;
   }
 }
