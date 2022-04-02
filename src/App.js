@@ -24,16 +24,16 @@ function App() {
 	}
 	return (
 		<div className='page'>
-			<Modal
-				className='modal'
-				isOpen={modalIsOpen}
-				ariaHideApp={false}>
-				<ContactForm onCloseButtonClick={closeModal} />
-			</Modal>
 			<header>
 				<Navbar onContactButtonClick={openModal} />
 			</header>
 			<main>
+				<Modal
+					className='modal'
+					isOpen={modalIsOpen}
+					ariaHideApp={false}>
+					<ContactForm onCloseButtonClick={closeModal} />
+				</Modal>
 				<Home />
 				<Problem />
 				<Solution />
