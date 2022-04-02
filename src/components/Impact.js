@@ -26,17 +26,19 @@ const Impact = () => {
           return (
             <article key={key} className="impact__card">
               <div className={decoration} />
-              <h3 className="impact__card-header">{header}</h3>
-              <ul className="impact__card-list">
-                {text.map((line) => {
-                  return (
-                    <li key={line} className="impact__list-item">
-                      <div className="impact__card-bullet" />
-                      <p className="impact__card-text">{line}</p>
-                    </li>
-                  )
-                })}
-              </ul>
+              <div className="impact__card-content">
+                <h3 className="impact__card-header">{header}</h3>
+                <ul className="impact__card-list">
+                  {text.map((line, i) => {
+                    return (
+                      <li key={i} className="impact__list-item">
+                        <div className="impact__card-bullet" />
+                        <p className="impact__card-text">{line}</p>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
             </article>
           )
         })}
