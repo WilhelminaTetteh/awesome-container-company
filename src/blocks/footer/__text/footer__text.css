@@ -7,3 +7,7 @@
   color: #ffffff;
   margin: 0;
 }
+
+.footer__text:first-of-type {
+  padding-top: 10px;
+}

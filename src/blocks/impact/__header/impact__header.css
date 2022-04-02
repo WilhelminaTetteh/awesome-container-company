@@ -1,6 +1,5 @@
 .impact__header {
 	position: relative;
-	width: 816px;
 	font-family: 'Spline Sans';
 	font-style: normal;
 	font-weight: 400;
@@ -11,4 +10,14 @@
 	margin: 0 auto;
 	padding-top: 120px;
 	/* z-index: 2; */
+	white-space: normal;
+}
+
+@media (max-width: 533px) {
+	.impact__header {
+		padding-top: 60px;
+		font-size: 28px;
+		line-height: 32px;
+		max-width: 343px;
+	}
 }

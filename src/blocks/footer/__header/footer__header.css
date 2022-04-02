@@ -7,3 +7,10 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .footer__header {
+    font-size: 28px;
+    line-height: 33.18px;
+  }
+}
