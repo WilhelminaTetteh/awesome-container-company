@@ -3,3 +3,10 @@
   gap: 40px;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .footer__terms {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

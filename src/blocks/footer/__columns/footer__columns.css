@@ -5,3 +5,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 767px) {
+  .footer__columns {
+    padding: 60px 16px;
+    flex-direction: column;
+    gap: 80px;
+  }
+}
