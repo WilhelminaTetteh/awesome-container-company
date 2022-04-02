@@ -1,8 +1,5 @@
-@import url(./__container/page__container.css);
-
 .page {
 	margin: 0;
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 }

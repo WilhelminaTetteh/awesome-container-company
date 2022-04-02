@@ -1,6 +1,7 @@
 .problem__info-container {
 	display: flex;
 	margin: 0 auto;
+	max-width: 1160.01px;
 	/* justify-content: space-between; */
 }
 /* @media (max-width: 1024px) {
