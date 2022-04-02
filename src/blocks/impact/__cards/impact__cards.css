@@ -6,3 +6,13 @@
 	max-width: 1440px;
 	/* z-index: 2; */
 }
+
+
+@media (max-width: 999px) {
+	.impact__cards {
+		flex-direction: column;
+		gap: 117px;
+		margin: 101px auto;
+		align-items: center;
+	}
+}

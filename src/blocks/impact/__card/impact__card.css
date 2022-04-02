@@ -8,3 +8,15 @@
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
+
+@media (max-width: 1400px) {
+  .impact__card {
+    max-width: 482px;
+  }
+}
+
+@media (max-width: 533px) {
+  .impact__card {
+    max-width: 343px;
+  }
+}

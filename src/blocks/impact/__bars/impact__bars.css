@@ -9,3 +9,12 @@
 	background-repeat: no-repeat;
 	/* z-index: 1; */
 }
+
+
+@media (max-width: 999px) {
+	.impact__bars {
+		top: -61px;
+		width: 160px;
+		height: 96px;
+	}
+}
