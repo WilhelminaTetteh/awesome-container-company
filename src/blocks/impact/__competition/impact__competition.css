@@ -5,3 +5,20 @@
 	white-space: nowrap;
   padding-bottom: 56px;
 }
+
+.impact__competition::-webkit-scrollbar {
+  width: 100%;
+}
+
+.impact__competition::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.impact__competition::-webkit-scrollbar-thumb {
+  background-color: #1c383c;
+  border-radius: 10px;
+  width: 122px;
+  height: 8px;
+}
