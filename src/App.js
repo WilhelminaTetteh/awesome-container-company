@@ -24,6 +24,12 @@ function App() {
 	}
 	return (
 		<div className='page'>
+			<Modal
+				className='modal'
+				isOpen={modalIsOpen}
+				ariaHideApp={false}>
+				<ContactForm onCloseButtonClick={closeModal} />
+			</Modal>
 			<header>
 				<Navbar onContactButtonClick={openModal} />
 			</header>
@@ -38,12 +44,6 @@ function App() {
 				<Partners />
 			</main>
 			<Footer />
-			<Modal
-				className='modal'
-				isOpen={modalIsOpen}
-				ariaHideApp={false}>
-				<ContactForm onCloseButtonClick={closeModal} />
-			</Modal>
 		</div>
 	);
 }
