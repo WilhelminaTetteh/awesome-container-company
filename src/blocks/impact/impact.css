@@ -23,7 +23,6 @@
 @import url(__table-text/_highlight/impact__table-text_highlight.css);
 
 .impact {
-  position: relative;
   background-color: #f4f4f4;
   padding-bottom: 64px;
 }

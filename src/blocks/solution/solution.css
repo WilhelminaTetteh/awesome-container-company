@@ -17,7 +17,6 @@
 .solution {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   background-color: #f4f4f4;
   margin: 0 auto;
 }

@@ -3,7 +3,8 @@
 @import url(_3/solution__visual-text_3.css);
 
 .solution__visual-text {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   font-family: 'Spline Sans';
   font-style: normal;
   font-weight: 400;
