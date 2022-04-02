@@ -1,4 +1,5 @@
 import React from 'react';
+import FormInput from './FormInput';
 
 const ContactForm = ({ onCloseButtonClick }) => {
 	return (
@@ -8,50 +9,26 @@ const ContactForm = ({ onCloseButtonClick }) => {
 				className='modal__button'
 				type='button'
 				aria-label='modal button'></button>
-
-			{/* <form
-				action='#'
-				class='form'
-				method='POST'
-				name='profile-form'
-				novalidate>
-				<h2 class='form__heading'>
+			{/* form */}
+			<form className='form' action=''>
+				<h2 className='form__heading'>
 					Leave your contacts and request, and our manager will reach
 					out to you to establish our futher parntership!
 				</h2>
-
-				<label for='#' class='form__lable'>
-					<input
-						id='profile-name'
-						type='text'
-						placeholder='Name'
-						class='form__input form__input_type_title'
-						name='title'
-						required
-						maxlength='40'
-						minlength='2'
-					/>
-					<span id='profile-name-error' class='form__error'></span>
-				</label>
-
-				<label for='#' class='form__lable'>
-					<input
-						id='profile-text'
-						type='text'
-						placeholder='About me'
-						class='form__input form__input_type_description'
-						name='description'
-						required
-						maxlength='200'
-						minlength='2'
-					/>
-					<span id='profile-text-error' class='form__error'></span>
-				</label>
-
-				<button class='form__button form__button-save' type='submit'>
-					Save
-				</button>
-			</form> */}
+				<FormInput />
+				<div className='form__input-wrapper'>
+					<label className='form__input-label'>
+						Your request / interest
+					</label>
+					<textarea
+						className='form__textarea'
+						name=''
+						id=''
+						cols='30'
+						rows='10'></textarea>
+				</div>
+				<button className='form__button'>Send</button>
+			</form>
 		</div>
 	);
 };

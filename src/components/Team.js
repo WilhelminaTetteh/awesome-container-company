@@ -11,7 +11,7 @@ const Team = () => {
 			<ul className='team__list'>
 				{team.map((teamMember, id) => {
 					return (
-						<li className='team__list-item'>
+						<li key={id} className='team__list-item'>
 							<div className='team__image-wrapper'>
 								<img
 									src={teamMember.src}
