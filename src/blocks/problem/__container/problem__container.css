@@ -1,5 +1,7 @@
 .problem__container {
-	margin-left: 140px;
+	margin: 0 auto;
+	padding: 0 140px ;
+	max-width: 1440px;
 }
 @media (max-width: 1024px) {
 	.problem__container {
