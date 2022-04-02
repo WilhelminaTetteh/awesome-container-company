@@ -25,15 +25,15 @@ function App() {
 	return (
 		<div className='page'>
 			<header>
-				<Navbar onContactButtonClick={openModal} />
-			</header>
-			<main>
 				<Modal
 					className='modal'
 					isOpen={modalIsOpen}
 					ariaHideApp={false}>
 					<ContactForm onCloseButtonClick={closeModal} />
 				</Modal>
+				<Navbar onContactButtonClick={openModal} />
+			</header>
+			<main>
 				<Home />
 				<Problem />
 				<Solution />
