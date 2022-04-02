@@ -1,10 +1,12 @@
 .modal__container {
 	position: relative;
 	width: 760px;
-	height: 778px;
-	background-color: #ffffff;
+	/* height: 778px; */
+	/* background-color: rgb(247, 254, 179); */
+	background-color: #fff;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
-	margin: 140px auto 0 auto;
+	/* margin: 140px auto 0 auto; */
+	margin: 0 auto;
 	z-index: 4;
 }
