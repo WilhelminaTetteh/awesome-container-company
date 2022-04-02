@@ -31,12 +31,6 @@ function App() {
 				<ContactForm onCloseButtonClick={closeModal} />
 			</Modal>
 			<header>
-				<Modal
-					className='modal'
-					isOpen={modalIsOpen}
-					ariaHideApp={false}>
-					<ContactForm onCloseButtonClick={closeModal} />
-				</Modal>
 				<Navbar onContactButtonClick={openModal} />
 			</header>
 			<main>
