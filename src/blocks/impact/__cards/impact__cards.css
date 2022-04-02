@@ -9,7 +9,7 @@
 	.impact__cards {
 		flex-direction: column;
 		gap: 117px;
-		margin: 101px auto;
+		margin: 101px auto 20px;
 		align-items: center;
 	}
 }

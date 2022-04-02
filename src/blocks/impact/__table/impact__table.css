@@ -19,7 +19,7 @@
 @media (max-width: 1023px) {
   .impact__table {
 		max-width: unset;
-		margin: 60px 20px 0;
+		margin: 40px 20px 0;
 		width: 984px;
 	}
 }
