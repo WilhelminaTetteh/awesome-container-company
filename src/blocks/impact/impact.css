@@ -25,4 +25,5 @@
 .impact {
   background-color: #f4f4f4;
   padding-bottom: 64px;
+  z-index: -1;
 }
