@@ -9,3 +9,9 @@
   margin: 0 auto;
   padding-top: 45px;
 }
+
+@media (max-width: 767px) {
+  .impact__card-header {
+    padding-top: 30px;
+  }
+}

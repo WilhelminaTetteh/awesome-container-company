@@ -10,8 +10,17 @@
   margin: 20px auto 0;
 }
 
+@media (max-width: 1400px) {
+  .impact__card-text {
+    max-width: 452px;
+  }
+}
+
 @media (max-width: 767px) {
   .impact__card-text {
     max-width: 323px;
+  }
+
+  .impact__card-text:last-of-type {
   }
 }
