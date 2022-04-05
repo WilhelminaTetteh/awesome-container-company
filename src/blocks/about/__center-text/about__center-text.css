@@ -1,5 +1,4 @@
 .about__center-text {
-  position: absolute;
   top: 395px;
   left: 640px;
   font-family: 'Spline Sans';
@@ -8,4 +7,6 @@
   font-size: 18px;
   line-height: 21px;
   color: #ff9820;
+  text-align: center;
+  align-self: center;
 }

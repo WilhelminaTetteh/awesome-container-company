@@ -1,4 +1,6 @@
 .about__arrow_3 {
-  top: 522px;
-  left: 452px;
+  grid-row: 3;
+  grid-column: 1;
+  align-self: flex-start;
+  justify-self: flex-end;
 }

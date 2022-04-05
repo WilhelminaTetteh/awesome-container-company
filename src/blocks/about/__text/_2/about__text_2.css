@@ -1,4 +1,4 @@
 .about__text_2 {
-  top: 383px;
-  right: 100px;
+  grid-row: 2;
+  grid-column: 3;
 }

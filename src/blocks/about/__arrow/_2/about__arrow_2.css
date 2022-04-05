@@ -1,4 +1,5 @@
 .about__arrow_2 {
-  top: 528px;
-  left: 959px;
+  grid-row: 3;
+  grid-column: 3;
+  align-self: flex-start;
 }

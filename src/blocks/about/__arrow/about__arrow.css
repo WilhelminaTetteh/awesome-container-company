@@ -1,9 +1,12 @@
 .about__arrow {
-  position: absolute;
   height: 46px;
   width: 46px;
+  margin: 40px;
 }
 
 @media (max-width: 767px) {
-  
+  .about__arrow {
+    display: none;
+    visibility: hidden;
+  }
 }

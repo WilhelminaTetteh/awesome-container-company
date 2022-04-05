@@ -1,4 +1,5 @@
 .about__arrow_4 {
-  top: 179px;
-  left: 444px;
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: flex-end;
 }

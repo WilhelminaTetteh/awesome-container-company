@@ -8,11 +8,25 @@ import arrow2 from '../images/arrow2.png';
 import arrow3 from '../images/arrow3.png';
 import arrow4 from '../images/arrow4.png';
 
+// aboutList = [
+// 	{
+// 		key: 1,
+// 		image: image1,
+// 		alt: '',
+// 		content: 
+// 	}
+// ]
+
 const About = ({ onContactButtonClick }) => {
 	return (
 		<section className='about' id='about'>
 			<h2 className='about__header'>How it works?</h2>
 			<div className='about__visual'>
+				<img
+					src={arrow4}
+					alt='diagonal down right arrow'
+					className='about__arrow about__arrow_4'
+				/>
 				<p className='about__text about__text_1'>
 					<img
 						src={image1}
@@ -23,6 +37,11 @@ const About = ({ onContactButtonClick }) => {
 					<br />
 					Restaurants request reusable containers via app
 				</p>
+				<img
+					src={arrow1}
+					alt='diagonal down right arrow'
+					className='about__arrow about__arrow_1'
+				/>
 				<p className='about__text about__text_2'>
 					<img			
 						src={image2}
@@ -35,6 +54,11 @@ const About = ({ onContactButtonClick }) => {
 					<br />
 					to restaurants
 				</p>
+				<img
+					src={arrow2}
+					alt='diagonal down right arrow'
+					className='about__arrow about__arrow_2'
+				/>
 				<p className='about__text about__text_3'>
 					<img
 						src={image3}
@@ -47,6 +71,11 @@ const About = ({ onContactButtonClick }) => {
 					<br />
 					via app
 				</p>
+				<img
+					src={arrow3}
+					alt='diagonal down right arrow'
+					className='about__arrow about__arrow_3'
+				/>
 				<p className='about__text about__text_4'>
 					<img
 						src={image4}
@@ -60,26 +89,6 @@ const About = ({ onContactButtonClick }) => {
 					at commercial facility
 				</p>
 				<p className='about__center-text'>Circular ecosystem</p>
-				<img
-					src={arrow1}
-					alt='diagonal down right arrow'
-					className='about__arrow about__arrow_1'
-				/>
-				<img
-					src={arrow2}
-					alt='diagonal down right arrow'
-					className='about__arrow about__arrow_2'
-				/>
-				<img
-					src={arrow3}
-					alt='diagonal down right arrow'
-					className='about__arrow about__arrow_3'
-				/>
-				<img
-					src={arrow4}
-					alt='diagonal down right arrow'
-					className='about__arrow about__arrow_4'
-				/>
 			</div>
 			<button
 				onClick={onContactButtonClick}
