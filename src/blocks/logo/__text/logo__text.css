@@ -10,3 +10,10 @@
 	/* margin-top: 15.7px; */
 	height: 17px;
 }
+
+@media (max-width: 767px) {
+	.logo__text {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}
