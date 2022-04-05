@@ -6,8 +6,6 @@
   font-size: 18px;
   line-height: 21px;
   max-width: 160px;
-  overflow-x: unset;
-  white-space: unset;
 }
 
 @media (max-width: 1223px) {
