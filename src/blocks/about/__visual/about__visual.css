@@ -2,3 +2,12 @@
   position: relative;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .about__visual {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px auto;
+  }
+}

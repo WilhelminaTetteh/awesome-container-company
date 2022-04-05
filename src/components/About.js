@@ -13,32 +13,22 @@ const About = ({ onContactButtonClick }) => {
 		<section className='about' id='about'>
 			<h2 className='about__header'>How it works?</h2>
 			<div className='about__visual'>
-				<img
-					src={image1}
-					alt=''
-					className='about__image about__image_1'
-				/>
-				<img
-					src={image2}
-					alt=''
-					className='about__image about__image_2'
-				/>
-				<img
-					src={image3}
-					alt=''
-					className='about__image about__image_3'
-				/>
-				<img
-					src={image4}
-					alt=''
-					className='about__image about__image_4'
-				/>
 				<p className='about__text about__text_1'>
+					<img
+						src={image1}
+						alt=''
+						className='about__image about__image_1'
+					/>
 					01.
 					<br />
 					Restaurants request reusable containers via app
 				</p>
 				<p className='about__text about__text_2'>
+					<img			
+						src={image2}
+						alt=''
+						className='about__image about__image_2'
+					/>	
 					02.
 					<br />
 					Deliver containers
@@ -46,6 +36,11 @@ const About = ({ onContactButtonClick }) => {
 					to restaurants
 				</p>
 				<p className='about__text about__text_3'>
+					<img
+						src={image3}
+						alt=''
+						className='about__image about__image_3'
+					/>
 					03.
 					<br />
 					Pick up used containers from users
@@ -53,6 +48,11 @@ const About = ({ onContactButtonClick }) => {
 					via app
 				</p>
 				<p className='about__text about__text_4'>
+					<img
+						src={image4}
+						alt=''
+						className='about__image about__image_4'
+					/>
 					04.
 					<br />
 					Wash containers

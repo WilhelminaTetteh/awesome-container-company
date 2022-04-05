@@ -4,7 +4,6 @@
 @import url(_4/about__text_4.css);
 
 .about__text {
-  position: absolute;
   font-family: 'Spline Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -12,6 +11,10 @@
   line-height: 28px;
   text-align: center;
   color: #1c383c;
-  width: 420px;
+  max-width: 420px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px
 }
