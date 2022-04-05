@@ -3,12 +3,6 @@ import { cardList } from "../constants/constants";
 import image1 from "../images/solution1.png";
 import image2 from "../images/solution2.png";
 import image3 from "../images/solution3.png";
-
-const solutionList = [
-  {
-
-}
-];
  
 const Solution = () => {
   const [selectedCard, setSelectedCard] = React.useState(cardList[0]);
@@ -37,7 +31,7 @@ const Solution = () => {
       <p className="solution__text"><span className="solution__text-span">Awesome Container Company</span> replaces single-use packaging with reusable stainless steel containers</p>
 
       <div className="solution__carousel">
-        <button className="solution__button" onClick={nextCard} />
+        {/* {window.innerWidth > 767 && <button className="solution__button" onClick={nextCard} />} */}
 
         <div className="solution__card">
           <img src={selectedCard.image} alt="" className="solution__card-image" />
@@ -57,7 +51,7 @@ const Solution = () => {
           </article>
         </div>
 
-        <button className="solution__button solution__button_isRight" onClick={nextCard} />
+        {/* {window.innerWidth > 767 && <button className="solution__button solution__button_isRight" onClick={nextCard} />} */}
       </div>
 
       <div className="solution__visual">

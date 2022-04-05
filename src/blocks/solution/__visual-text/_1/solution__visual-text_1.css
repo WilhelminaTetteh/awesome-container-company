@@ -3,3 +3,9 @@
   top: 270px; */
   align-self: flex-start;
 }
+
+@media (max-width: 767px) {
+  .solution__visual-text_1 {
+    align-self: center;
+  }
+}

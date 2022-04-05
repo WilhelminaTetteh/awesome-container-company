@@ -10,6 +10,7 @@
 
 @media (max-width: 767px) {
   .solution__card {
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     padding-bottom: 60px;
