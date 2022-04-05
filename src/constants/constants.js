@@ -1,4 +1,7 @@
 import logo from "../images/logo.svg";
+import card1 from "../images/card1.png";
+import card2 from "../images/card2.png";
+import card3 from "../images/card3.png";
 
 export const problems = [
 	{
@@ -19,6 +22,65 @@ export const problems = [
 		src: '../images/plasticSorting.svg',
 		alt: 'plasticSorting',
 	},
+];
+export const cardList = [
+  {
+    key: 1,
+    image: card1,
+    features: [
+      "Removable/adjustable divider",
+      "Leak-resistant lid keeps food fresh",
+      "Rectangle shapes stack to save storage space",
+      "Easy to sanitize and dishwasher safe",
+      "Containers and lids are freezer safe",
+      "Containers are oven safe up to 300 degrees",
+      "Lighter and sturdier than glass",
+      "Etched tare weights for easy bulk shopping",
+      "304 (18/8) stainless steel, LDPE #4 plastic lid, PP #5 plastic divider",
+      "Free of BPA, BPS, phthalates and lead",
+    ],
+    sizing: [
+      "25oz container size with lid on: 7.75” x 1.75” x 5” Lids: 7.75” x 5”",
+    ]
+  },
+  {
+    key: 2,
+    image: card2,
+    features: [
+      "Leak-resistant lid keeps food fresh",
+      "Easy to sanitize and dishwasher safe",
+      "Containers and lids are freezer safe",
+      "Containers are oven safe up to 300 degrees",
+      "Three containers nest to save storage space",
+      "Lighter and sturdier than glass",
+      "Etched tare weights for easy bulk shopping",
+      "304 (18/8) stainless steel, LDPE #4 plastic",
+      "Free of BPA, BPS, phthalates and lead",
+    ],
+    sizing: [
+      "16oz, container size with lid on: 4-5/8” x 2.25”. Lid is 4.75” diameter",
+      "9oz, container size with lid on: 4” x 2”. Lid is 4” diameter",
+      "5oz, container size with lid on: 3.5” x 1.5”. Lid is 3.5” diameter",
+    ]
+  },
+  {
+    key: 3,
+    image: card3,
+    features: [
+      "Removable 2-section + 4-section divider",
+      "Leak-resistant lid keeps food fresh",
+      "Easy to sanitize and dishwasher safe",
+      "Containers and lids are freezer safe",
+      "Containers are oven safe up to 300 degrees",
+      "Lighter and sturdier than glass",
+      "Etched tare weights for easy bulk shopping",
+      "304 (18/8) stainless steel, LDPE #4 plastic lid, PP#5 divider",
+      "Free of BPA, BPS, phthalates and lead",
+    ],
+    sizing: [
+      "100oz (3 liters, 12.5 cups), 9.5” x 3.25”",
+    ]
+  }
 ];
 export const cards = [
   {

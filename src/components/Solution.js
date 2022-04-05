@@ -1,71 +1,14 @@
 import React from "react";
-import card1 from "../images/card1.png";
-import card2 from "../images/card2.png";
-import card3 from "../images/card3.png";
+import { cardList } from "../constants/constants";
 import image1 from "../images/solution1.png";
 import image2 from "../images/solution2.png";
 import image3 from "../images/solution3.png";
 
-const cardList = [
+const solutionList = [
   {
-    key: 1,
-    image: card1,
-    features: [
-      "Removable/adjustable divider",
-      "Leak-resistant lid keeps food fresh",
-      "Rectangle shapes stack to save storage space",
-      "Easy to sanitize and dishwasher safe",
-      "Containers and lids are freezer safe",
-      "Containers are oven safe up to 300 degrees",
-      "Lighter and sturdier than glass",
-      "Etched tare weights for easy bulk shopping",
-      "304 (18/8) stainless steel, LDPE #4 plastic lid, PP #5 plastic divider",
-      "Free of BPA, BPS, phthalates and lead",
-    ],
-    sizing: [
-      "25oz container size with lid on: 7.75” x 1.75” x 5” Lids: 7.75” x 5”",
-    ]
-  },
-  {
-    key: 2,
-    image: card2,
-    features: [
-      "Leak-resistant lid keeps food fresh",
-      "Easy to sanitize and dishwasher safe",
-      "Containers and lids are freezer safe",
-      "Containers are oven safe up to 300 degrees",
-      "Three containers nest to save storage space",
-      "Lighter and sturdier than glass",
-      "Etched tare weights for easy bulk shopping",
-      "304 (18/8) stainless steel, LDPE #4 plastic",
-      "Free of BPA, BPS, phthalates and lead",
-    ],
-    sizing: [
-      "16oz, container size with lid on: 4-5/8” x 2.25”. Lid is 4.75” diameter",
-      "9oz, container size with lid on: 4” x 2”. Lid is 4” diameter",
-      "5oz, container size with lid on: 3.5” x 1.5”. Lid is 3.5” diameter",
-    ]
-  },
-  {
-    key: 3,
-    image: card3,
-    features: [
-      "Removable 2-section + 4-section divider",
-      "Leak-resistant lid keeps food fresh",
-      "Easy to sanitize and dishwasher safe",
-      "Containers and lids are freezer safe",
-      "Containers are oven safe up to 300 degrees",
-      "Lighter and sturdier than glass",
-      "Etched tare weights for easy bulk shopping",
-      "304 (18/8) stainless steel, LDPE #4 plastic lid, PP#5 divider",
-      "Free of BPA, BPS, phthalates and lead",
-    ],
-    sizing: [
-      "100oz (3 liters, 12.5 cups), 9.5” x 3.25”",
-    ]
-  }
-];
 
+}
+];
  
 const Solution = () => {
   const [selectedCard, setSelectedCard] = React.useState(cardList[0]);
@@ -101,14 +44,14 @@ const Solution = () => {
           <article className="solution__card-text">
             <h3 className="solution__card-header">Features</h3>
             <ul className="solution__card-list">
-              {selectedCard.features.map((card) => {
-                return <li className="solution__card-item" key={card}>{card}</li>
+              {selectedCard.features.map((card, i) => {
+                return <li className="solution__card-item" key={i}>{card}</li>
               })}
             </ul>
             <h3 className="solution__card-header">Sizing</h3>
             <ul className="solution__card-list">
-            {selectedCard.sizing.map((card) => {
-                return <li className="solution__card-item" key={card}>{card}</li>
+            {selectedCard.sizing.map((card, i) => {
+                return <li className="solution__card-item" key={i}>{card}</li>
               })}
             </ul>
           </article>
@@ -118,12 +61,19 @@ const Solution = () => {
       </div>
 
       <div className="solution__visual">
-        <img src={image1} alt="container stick person holding 5 other containers" className="solution__visual-image solution__visual-image_1" />
-        <p className="solution__visual-text solution__visual-text_1">Backend logistics support</p>
-        <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2" />
-        <p className="solution__visual-text solution__visual-text_2">Save at least 50% on supply cost and time on inventory tracking/re-orders</p>
-        <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3" />
-        <p className="solution__visual-text solution__visual-text_3">Save storage space while removing tons of waste from our oceans and landfills</p>
+        
+        <p className="solution__visual-text solution__visual-text_1">
+          <img src={image1} alt="container stick person holding 5 other containers" className="solution__visual-image solution__visual-image_1" />
+          Backend logistics support
+        </p>
+        <p className="solution__visual-text solution__visual-text_2">
+          <img src={image2} alt="#" className="solution__visual-image solution__visual-image_2" />
+          Save at least 50% on supply cost and time on inventory tracking/re-orders
+        </p>
+        <p className="solution__visual-text solution__visual-text_3">
+          <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3" />
+          Save storage space while removing tons of waste from our oceans and landfills
+        </p>
       </div>
     </section>
   );
