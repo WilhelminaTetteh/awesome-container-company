@@ -26,6 +26,7 @@ function App() {
 		<div className='page'>
 			<Modal
 				className='modal'
+				overlayClassName='modal__overlay'
 				isOpen={modalIsOpen}
 				ariaHideApp={false}>
 				<ContactForm onCloseButtonClick={closeModal} />

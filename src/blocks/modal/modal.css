@@ -1,6 +1,7 @@
-@import url(./__container/modal__container.css);
-@import url(./__button/modal__button.css);
-@import url(./_open/modal_open.css);
+@import url(__container/modal__container.css);
+@import url(__button/modal__button.css);
+@import url(_open/modal_open.css);
+@import url(__overlay/modal__overlay.css);
 
 .modal {
 	background-color: #00000048;
