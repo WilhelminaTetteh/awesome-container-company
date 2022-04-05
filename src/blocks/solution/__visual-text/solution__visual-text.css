@@ -5,6 +5,7 @@
 .solution__visual-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: 'Spline Sans';
   font-style: normal;
   font-weight: 400;
