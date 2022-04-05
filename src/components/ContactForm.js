@@ -1,7 +1,19 @@
 import React from 'react';
-import FormInput from './FormInput';
-
+import { useForm } from 'react-hook-form';
 const ContactForm = ({ onCloseButtonClick }) => {
+	const {
+		register,
+		handleSubmit,
+		formState: { errors },
+		reset,
+		watch,
+		trigger,
+	} = useForm();
+	//On submission
+	const onSubmit = (data) => {
+		console.log(data);
+		reset();
+	};
 	return (
 		<div className='modal__container'>
 			<button
@@ -10,38 +22,56 @@ const ContactForm = ({ onCloseButtonClick }) => {
 				type='button'
 				aria-label='modal button'></button>
 			{/* form */}
-			<form className='form' action=''>
+
+			<form className='form' onSubmit={handleSubmit(onSubmit)}>
 				<h2 className='form__heading'>
 					Leave your contacts and request, and our manager will reach
 					out to you to establish our futher parntership!
 				</h2>
 				<div className='form__input-wrapper'>
-					<label className='form__input-label'>
-						Personal or company name *
-					</label>
-					<span className='form__input-error'>
-						Personal or company name * (This field is required)
-					</span>
-					<input type='text' className='form__input' />
+					{errors.email ? (
+						<span className='form__input-error'>
+							Personal or company name * (This field is required)
+						</span>
+					) : (
+						<label className='form__input-label'>
+							Personal or company name *
+						</label>
+					)}
+
+					<input
+						{...register('name', {
+							required:
+								'Personal or company name * (This field is required)',
+						})}
+						type='text'
+						className='form__input'
+					/>
 				</div>
-				{/* delete later */}
 				<div className='form__input-wrapper'>
-					<label className='form__input-label'>Email *</label>
-					<span className='form__input-error'>
-						Email * (This field is required)
-					</span>
-					<input type='text' className='form__input' />
+					{errors.email ? (
+						<span className='form__input-error'>
+							Email* (This field is required)
+						</span>
+					) : (
+						<label className='form__input-label'>Email *</label>
+					)}
+
+					<input
+						{...register('email', {
+							required: 'Email * (This field is required)',
+						})}
+						type='email'
+						className='form__input'
+					/>
 				</div>
 				<div className='form__input-wrapper'>
 					<label className='form__input-label'>
 						Your request / interest
 					</label>
 					<textarea
-						className='form__textarea'
-						name=''
-						id=''
-						cols='30'
-						rows='10'></textarea>
+						{...register('message')}
+						className='form__textarea'></textarea>
 				</div>
 				<button className='form__button'>Send</button>
 			</form>
