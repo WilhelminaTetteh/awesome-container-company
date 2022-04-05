@@ -29,9 +29,9 @@ const ContactForm = ({ onCloseButtonClick }) => {
 					out to you to establish our futher parntership!
 				</h2>
 				<div className='form__input-wrapper'>
-					{errors.email ? (
+					{errors.name ? (
 						<span className='form__input-error'>
-							Personal or company name * (This field is required)
+							{errors.name.message}
 						</span>
 					) : (
 						<label className='form__input-label'>
@@ -44,14 +44,19 @@ const ContactForm = ({ onCloseButtonClick }) => {
 							required:
 								'Personal or company name * (This field is required)',
 						})}
+						onKeyUp={() => {
+							trigger('name');
+						}}
 						type='text'
-						className='form__input'
+						className={`form__input ${
+							errors.name && 'form__invalid-border'
+						}`}
 					/>
 				</div>
 				<div className='form__input-wrapper'>
 					{errors.email ? (
 						<span className='form__input-error'>
-							Email* (This field is required)
+							{errors.email.message}
 						</span>
 					) : (
 						<label className='form__input-label'>Email *</label>
@@ -60,9 +65,18 @@ const ContactForm = ({ onCloseButtonClick }) => {
 					<input
 						{...register('email', {
 							required: 'Email * (This field is required)',
+							pattern: {
+								value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+								message: 'Email * (Invalid email address)',
+							},
 						})}
+						onKeyUp={() => {
+							trigger('email');
+						}}
 						type='email'
-						className='form__input'
+						className={`form__input ${
+							errors.email && 'form__invalid-border'
+						}`}
 					/>
 				</div>
 				<div className='form__input-wrapper'>
