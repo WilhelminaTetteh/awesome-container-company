@@ -9,3 +9,9 @@
   max-width: 596px;
   margin: 20px auto 0;
 }
+
+@media (max-width: 767px) {
+  .impact__card-text {
+    max-width: 323px;
+  }
+}
