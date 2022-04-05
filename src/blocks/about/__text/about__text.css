@@ -16,5 +16,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
+  justify-self: center;
   gap: 30px
+}
+
+@media (max-width: 767px) {
+  .about__text {
+    align-self: center;
+    max-width: 343px;
+  }
 }

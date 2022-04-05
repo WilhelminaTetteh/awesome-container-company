@@ -3,4 +3,14 @@
   grid-column: 1;
   align-self: flex-start;
   justify-self: flex-end;
+  background-image: url(../../../../images/arrow3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 767px) {
+  .about__arrow_3 {
+    align-self: center;
+    background-image: url(../../../../images/arrow5.svg);
+  }
 }

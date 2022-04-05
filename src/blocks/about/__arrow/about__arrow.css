@@ -6,7 +6,8 @@
 
 @media (max-width: 767px) {
   .about__arrow {
-    display: none;
-    visibility: hidden;
+    width: 33px;
+    height: 33px;
+    margin: 0;
   }
 }
