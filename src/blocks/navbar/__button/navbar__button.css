@@ -12,7 +12,7 @@
 	margin: auto 40px;
 	width: 132px;
 	height: 44px;
-	transition: background-color 0.25 linear;
+	transition: background-color 0.25s linear;
 }
 
 .navbar__button:hover {

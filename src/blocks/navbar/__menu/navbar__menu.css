@@ -8,7 +8,7 @@
   background-color: #ffffff;
   align-self: center;
   justify-self: flex-end;
-  margin: auto 16px;
+  margin: auto 10px auto 16px;
   transition: linear 0.25 opacity;
 }
 
@@ -20,5 +20,11 @@
 @media (min-width: 1012px) {
   .navbar__menu {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar__menu {
+    margin: auto 16px;
   }
 }
