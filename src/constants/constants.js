@@ -2,7 +2,38 @@ import logo from "../images/logo.svg";
 import card1 from "../images/card1.png";
 import card2 from "../images/card2.png";
 import card3 from "../images/card3.png";
-
+export const navOptions = [
+	{
+		key: 1,
+		content: 'The Problem',
+		href: '#problem'
+	},
+	{
+		key: 2,
+		content: 'Sustainable Solution',
+		href: '#solution'
+	},
+	{
+		key: 3,
+		content: 'Impact',
+		href: '#impact'
+	},
+	{
+		key: 4,
+		content: 'Pricing',
+		href: '#pricing'
+	},
+	{
+		key: 5,
+		content: 'Team',
+		href: '#team'
+	},
+	{
+		key: 6,
+		content: 'Contacts',
+		href: '#footer'
+	}
+]
 export const problems = [
 	{
 		id: 1,

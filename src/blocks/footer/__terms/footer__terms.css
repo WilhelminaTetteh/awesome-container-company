@@ -2,11 +2,13 @@
   display: flex;
   gap: 40px;
   margin: 0;
+  padding: 80px 80px 60px 80px;
 }
 
 @media (max-width: 767px) {
   .footer__terms {
     flex-direction: column;
     gap: 16px;
+    padding: 60px 16px;
   }
 }
