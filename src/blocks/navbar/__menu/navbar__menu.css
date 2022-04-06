@@ -1,0 +1,24 @@
+.navbar__menu {
+  background-image: url(../../../images/hamburger.svg);
+  width: 44px;
+  height: 44px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #ffffff;
+  align-self: center;
+  justify-self: flex-end;
+  margin: auto 16px;
+  transition: linear 0.25 opacity;
+}
+
+.navbar__menu:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+@media (min-width: 1012px) {
+  .navbar__menu {
+    display: none;
+  }
+}

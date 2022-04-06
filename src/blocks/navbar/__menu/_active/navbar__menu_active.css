@@ -1,0 +1,6 @@
+.navbar__menu_active {
+  display: flex;
+  background-image: url(../../../../images/close.svg);
+  width: 28px;
+  height: 28px;
+}

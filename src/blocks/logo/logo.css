@@ -6,8 +6,9 @@
 	align-self: center;
 	justify-self: center;
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 767px) {
 	.logo {
-		margin: auto 37px auto 20px;
+		margin: auto 16px;
 	}
 }
