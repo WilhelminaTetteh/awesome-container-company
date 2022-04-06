@@ -12,10 +12,12 @@
 	margin: auto 40px;
 	width: 132px;
 	height: 44px;
+	transition: background-color 0.25 linear;
 }
 
 .navbar__button:hover {
 	background-color: #e78819;
+	cursor: pointer;
 }
 @media (max-width: 1212px) {
 	.navbar__button {

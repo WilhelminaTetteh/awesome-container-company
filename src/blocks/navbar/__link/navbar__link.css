@@ -6,4 +6,11 @@
 	font-size: 14px;
 	line-height: 17px;
 	color: #1c383c;
+	transition: opacity 0.25 linear;
+	opacity: 1;
+}
+
+.navbar__link:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
