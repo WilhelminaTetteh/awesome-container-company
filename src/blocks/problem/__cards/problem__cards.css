@@ -1,13 +1,33 @@
 .problem__cards {
 	margin: 80px auto 0;
 	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	gap: 60px;
+	grid-template-columns: 1fr 1fr 1fr;
 	max-width: 1160.01px;
 	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 1279px) {
 	.problem__cards {
-		width: 100%;
+		max-width: 982px;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.problem__cards {
+		margin: 40px auto 0;
+		padding-bottom: 80px;
+		max-width: 727px;
+	}
+}
+
+@media (max-width: 767px) {
+	.problem__cards {
+		grid-template-columns: 1fr;
+		max-width: 229px;
 	}
 }

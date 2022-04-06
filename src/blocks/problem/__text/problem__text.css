@@ -1,14 +1,27 @@
 .problem__text {
-	width: 627px;
+	max-width: 627px;
 	font-family: 'Spline Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 24px;
 	color: #fff;
+	margin: 0;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
 	.problem__text {
-		width: 515.42px;
+		max-width: 515.42px;
+	}
+}
+
+@media (max-width: 1012px) {
+	.problem__text {
+		margin: 0 auto;
+	}	
+}
+
+@media (max-width: 767px) {
+	.problem__text {
+		max-width: 346px;
 	}
 }

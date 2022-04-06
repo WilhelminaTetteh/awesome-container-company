@@ -1,13 +1,6 @@
 .problem__card-image {
-	width: 346.67px;
-	height: 315px;
+	width: 100%;
 	/* background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; */
-}
-@media (max-width: 1024px) {
-	.problem__card-image {
-		width: 314px;
-		height: 315px;
-	}
 }

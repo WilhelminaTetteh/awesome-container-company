@@ -8,8 +8,22 @@
 	background-repeat: no-repeat;
 	margin-right: 73px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
 	.problem__chart {
 		margin-right: 54px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.problem__chart {
+		margin: 40px auto 0;
+		width: 229px;
+		height: 229px;
+	}
+}
+
+@media (max-width: 767px) {
+	.problem__chart {
+		
 	}
 }

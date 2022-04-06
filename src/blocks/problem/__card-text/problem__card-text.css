@@ -1,5 +1,4 @@
 .problem__card-text {
-	text-align: center;
 	font-family: 'Spline Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -7,4 +6,5 @@
 	line-height: 17px;
 	text-align: center;
 	color: #ffffff;
+	width: 100%;
 }
