@@ -6,6 +6,7 @@
 @import url('./__textarea/form__textarea.css');
 @import url('./__button/form__button.css');
 @import url('./__invalid-border/form__invalid-border.css');
+@import url('./__invalid-button/form__invalid-button.css');
 .form {
 	max-width: 600px;
 	margin: auto;
