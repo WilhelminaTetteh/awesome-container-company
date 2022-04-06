@@ -5,6 +5,14 @@
   margin: 45px 80px 35px 11px;
 }
 
+@media (max-width: 1279px) {
+  .solution__card-image {
+    max-width: calc(100%-24px);
+    height: auto;
+    margin: auto;
+  }
+}
+
 @media (max-width: 767px) {
   .solution__card-image {
     max-width: 339px;

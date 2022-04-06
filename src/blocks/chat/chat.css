@@ -1,0 +1,15 @@
+@import url(__avatar/chat__avatar.css);
+@import url(__avatar/_acc/chat__avatar_acc.css);
+@import url(__avatar/_user/chat__avatar_user.css);
+@import url(__message/chat__message.css);
+@import url(__message/_acc/chat__message_acc.css);
+@import url(__message/_highlight/chat__message_highlight.css);
+@import url(__message/_user/chat__message_user.css);
+
+.chat {
+  width: 491px;
+  height: 389px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

@@ -23,6 +23,7 @@
 	box-shadow: -7px 5px 16px 1px rgba(56, 86, 122, 0.6);
 	cursor: col-resize;
 } */
+
 .home__slider-image {
 	display: block;
 	width: 628px;
@@ -50,4 +51,10 @@
 }
 .home__slider-icon {
 	font-size: 10px;
+}
+
+@media (max-width: 767px) {
+	.home {
+		padding: 100px 0 0;
+	}
 }

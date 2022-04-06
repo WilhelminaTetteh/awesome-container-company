@@ -5,7 +5,7 @@
   padding-top: 40px;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  max-width: 1240px;
+  max-width: 1212px;
 }
 
 @media (max-width: 767px) {

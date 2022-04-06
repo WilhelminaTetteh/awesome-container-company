@@ -2,8 +2,18 @@
 	display: flex;
 	justify-content: space-between;
 	/* flex-wrap: wrap; */
-	margin: 0 auto;
+	margin: 0;
 	align-items: flex-end;
+	max-width: 628px;
+	width: 100%;
 }
 @media screen and (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+	.home__visuals {
+		flex-direction: column;
+		gap: 60px;
+		/* max-width: 342px; */
+	}
 }

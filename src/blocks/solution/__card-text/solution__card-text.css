@@ -6,10 +6,13 @@
   line-height: 30px;
   color: #1C383C;
   margin-right: 62px;
+  padding-bottom: 110px;
+  padding-left: 20px;
 }
 
 @media (max-width: 767px) {
   .solution__card-text {
+    padding: 0;
     margin: 0 auto;
     max-width: 303px;
   }

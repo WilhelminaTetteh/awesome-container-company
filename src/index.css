@@ -1,5 +1,6 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/navbar/navbar.css);
+@import url(./blocks/chat/chat.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/home/home.css);
 @import url(./blocks/problem/problem.css);

@@ -1,8 +1,9 @@
 import React from 'react';
 import ImageSlider from 'react-image-comparison-slider';
-import dialogue from '../images/dialogue.svg';
 import sliderTrash from '../images/sliderTrash.svg';
 import sliderContainers from '../images/sliderContainers.svg';
+import Chat from './Chat';
+
 const Home = () => {
 	return (
 		<section className='home' id='home'>
@@ -40,10 +41,7 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
-
-				<div className='home__dialogue'>
-					{/* <img src={dialogue} alt='dialogue' /> */}
-				</div>
+				<Chat />
 			</div>
 		</section>
 	);
