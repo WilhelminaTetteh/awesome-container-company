@@ -1,4 +1,11 @@
 .pricing__dialogue {
-	margin-right: 40px;
-	margin-bottom: 91.45px;
+	margin: 0 auto 91.45px;
+}
+
+@media (max-width: 767px) {
+	.pricing__dialogue {
+		margin: 0 auto 60.49px;
+		content: url(../../../images/pricing3.svg);
+		width: 336px;
+	}
 }

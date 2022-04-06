@@ -1,0 +1,15 @@
+.pricing__container {
+  width: 305.84px;
+  height: 281.81px;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .pricing__container {
+    width: 173.62px;
+    height: 160px;
+    position: unset;
+    margin: 0 auto;
+  }
+}

@@ -9,4 +9,10 @@
 	padding: 16px 29px;
 	color: #ffffff;
 	border: none;
+	transition: background-color 0.25s linear;
+}
+
+.pricing__button:hover {
+	background-color: #e78819;
+	cursor: pointer;
 }

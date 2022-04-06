@@ -1,9 +1,15 @@
 import React from 'react';
+import pricing1 from '../images/pricing1.svg';
 import pricing2 from '../images/pricing2.svg';
-const Pricing = () => {
+const Pricing = ({ onContactButtonClick }) => {
 	return (
 		<section className='pricing' id='pricing'>
 			<div className='pricing__section1'>
+				<img 
+					className='pricing__container'
+					src={pricing1} 
+					alt='container with sprout on lid' 
+				/>
 				<h3 className='pricing__header'>
 					We are an ESG company:{' '}
 					<span style={{ display: 'block' }}>
@@ -30,9 +36,9 @@ const Pricing = () => {
 				<img
 					className='pricing__dialogue'
 					src={pricing2}
-					alt='pricing2'
+					alt='container with dialogue bubble: We calculate our prices according to the amount of containers and deliveries made by your business monthly.'
 				/>
-				<button className='pricing__button'>Work with us</button>
+				<button className='pricing__button' onClick={onContactButtonClick}>Work with us</button>
 				<p className='pricing__text'>
 					Leave your contacts and request, and our manager will reach
 					out to you to establish our futher parntership!
