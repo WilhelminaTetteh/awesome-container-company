@@ -1,9 +1,6 @@
 import React from 'react';
 import { team } from '../constants/constants';
-import Hung from '../images/Hung.svg';
-import Edwin from '../images/Edwin.svg';
-import Catella from '../images/Catella.svg';
-import linkedIn from '../images/linkedIn.svg';
+
 const Team = () => {
 	return (
 		<section className='team' id='team'>
