@@ -35,9 +35,9 @@ const Chat = () => {
     <section className="chat" id="chat">
       <img className="chat__avatar chat__avatar_customer" alt="black and white smiley" src={user} />
       <div className="chat__container">
-        {chatHistory.map(({content, bubble, text}) => {
+        {chatHistory.map(({content, bubble, text}, i) => {
           return (
-            <div className={`chat__bubble ${bubble}`}>
+            <div key={i} className={`chat__bubble ${bubble}`}>
               <p className={`chat__message ${text}`}>{content}</p>
             </div>
           )

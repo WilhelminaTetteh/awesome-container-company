@@ -31,7 +31,7 @@ const Solution = () => {
       <p className="solution__text"><span className="solution__text-span">Awesome Container Company</span> replaces single-use packaging with reusable stainless steel containers</p>
 
       <div className="solution__carousel">
-        {/* {window.innerWidth > 767 && <button className="solution__button" onClick={nextCard} />} */}
+        <button className="solution__button" onClick={nextCard} />
 
         <div className="solution__card">
           <img src={selectedCard.image} alt="" className="solution__card-image" />
@@ -51,7 +51,7 @@ const Solution = () => {
           </article>
         </div>
 
-        {/* {window.innerWidth > 767 && <button className="solution__button solution__button_isRight" onClick={nextCard} />} */}
+        <button className="solution__button solution__button_isRight" onClick={nextCard} />
       </div>
 
       <div className="solution__visual">

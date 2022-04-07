@@ -23,5 +23,6 @@
 @media (max-width: 768px) {
 	.pricing__info {
 		margin: 0 0 140px 0;
+		width: 100%;
 	}
 }
