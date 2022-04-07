@@ -18,6 +18,11 @@
 		width: 728px;
 	}
 }
+@media (max-width: 426px) {
+	.home__header {
+		width: 373px;
+	}
+}
 @media (max-width: 375px) {
 	.home__header {
 		font-size: 28px;
