@@ -9,3 +9,15 @@
 	margin-top: 12px;
 }
 
+@media (max-width: 1024px) {
+	.modal__button {
+		margin-left: 508px;
+	}
+}
+@media (max-width: 425px) {
+	.modal__button {
+		margin-left: 90%;
+		width: 30px;
+		height: 30px;
+	}
+}

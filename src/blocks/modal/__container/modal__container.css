@@ -10,3 +10,14 @@
 	margin: 0 auto;
 	z-index: 4;
 }
+
+@media (max-width: 1024px) {
+	.modal__container {
+		width: 560px;
+	}
+}
+@media (max-width: 425px) {
+	.modal__container {
+		width: 100%;
+	}
+}

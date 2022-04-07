@@ -8,3 +8,8 @@
 	box-sizing: border-box;
 	border-radius: 3px;
 }
+@media (max-width: 1024px) {
+	.form__input {
+		padding: 10px;
+	}
+}
