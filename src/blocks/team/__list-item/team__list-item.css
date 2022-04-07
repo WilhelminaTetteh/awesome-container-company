@@ -10,8 +10,9 @@
 		width: 25%;
 	}
 }
-@media (max-width: 376px) {
+@media (max-width: 476px) {
 	.team__list-item {
 		width: 100%;
+		margin-bottom: 49.25px;
 	}
 }
