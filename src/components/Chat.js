@@ -5,7 +5,7 @@ import acc from "../images/acc.svg";
 const chatHistory = [
   {
     content: "What do you do?",
-    bubble: "",
+    bubble: "chat__bubble_user",
     text: ""
   },
   {
@@ -15,12 +15,12 @@ const chatHistory = [
   },
   {
     content: "Awesome!",
-    bubble: "",
+    bubble: "chat__bubble_user",
     text: ""
   },
   {
     content: "I want to work with you!",
-    bubble: "chat__bubble_highlight",
+    bubble: "chat__bubble_user chat__bubble_highlight",
     text: "chat__message_highlight"
   },
   {
@@ -33,8 +33,8 @@ const chatHistory = [
 const Chat = () => {
   return (
     <section className="chat" id="chat">
-      <img className="chat__avatar chat__avatar_customer" alt="black and white smiley" src={user} />
       <div className="chat__container">
+        <img className="chat__avatar chat__avatar_customer" alt="black and white smiley" src={user} />
         {chatHistory.map(({content, bubble, text}, i) => {
           return (
             <div key={i} className={`chat__bubble ${bubble}`}>
@@ -42,8 +42,8 @@ const Chat = () => {
             </div>
           )
         })}
+        <img className="chat__avatar chat__avatar_acc" alt="container company smiley" src={acc} />
       </div>
-      <img className="chat__avatar chat__avatar_acc" alt="container company smiley" src={acc} />
     </section>
   )
 }

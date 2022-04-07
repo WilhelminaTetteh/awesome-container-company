@@ -1,4 +1,5 @@
 .chat__avatar {
   width: 38px;
   height: 38px;
+  position: absolute;
 }

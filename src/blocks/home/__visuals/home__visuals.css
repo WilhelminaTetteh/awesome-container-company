@@ -9,7 +9,7 @@
 @media screen and (max-width: 1024px) {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
 	.home__visuals {
 		flex-direction: column;
 		gap: 60px;

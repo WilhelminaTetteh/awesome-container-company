@@ -1,6 +1,13 @@
 .chat__container {
   width: 100%;
-  margin: 0 12px 0;
+  margin: 0 12px 40px 0;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+@media (max-width: 1279px) {
+  .chat__container {
+    margin: 0 0 72px 0;
+  }
 }

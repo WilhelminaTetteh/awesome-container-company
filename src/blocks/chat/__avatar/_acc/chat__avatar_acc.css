@@ -1,3 +1,4 @@
 .chat__avatar_acc {
-  align-self: flex-end;
+  right: 0;
+  bottom: -30px;
 }
