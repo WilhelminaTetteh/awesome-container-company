@@ -10,3 +10,8 @@
 	padding: 0;
 	/* width: 71.38%; */
 }
+@media (max-width: 768px) {
+	.pricing__calculation {
+		font-size: 30px;
+	}
+}

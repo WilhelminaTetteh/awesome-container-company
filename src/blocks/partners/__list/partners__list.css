@@ -10,3 +10,9 @@
 	align-items: center;
 	flex-wrap: wrap;
 }
+@media (max-width: 1024px) {
+	.partners__list {
+		width: 70.5%;
+		align-items: top;
+	}
+}

@@ -5,3 +5,8 @@
 	display: flex;
 	flex-direction: column;
 }
+@media (max-width: 1024px) {
+	.team__list-item {
+		width: 25%;
+	}
+}

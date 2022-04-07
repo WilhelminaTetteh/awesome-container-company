@@ -1,3 +1,9 @@
 .pricing__section1 {
 	padding-left: 6.9%;
 }
+
+@media (max-width: 1024px) {
+	.pricing__section1 {
+		padding-left: 4%;
+	}
+}

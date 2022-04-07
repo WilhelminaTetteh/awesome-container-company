@@ -8,3 +8,13 @@
 	padding: 0;
 	margin: 0 0 240px 0;
 }
+@media (max-width: 1024px) {
+	.pricing__info {
+		width: 80%;
+	}
+}
+@media (max-width: 768px) {
+	.pricing__info {
+		margin: 0 0 140px 0;
+	}
+}

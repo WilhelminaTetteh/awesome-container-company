@@ -18,3 +18,16 @@
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+	.pricing {
+		padding: 312px 0 240px 0;
+		background-position: 93% 2.7%;
+	}
+}
+@media (max-width: 768px) {
+	.pricing {
+		padding: 112px 0 140px 0;
+		background-size: 200px 200px;
+	}
+}

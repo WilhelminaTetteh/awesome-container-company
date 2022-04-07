@@ -5,7 +5,6 @@
 }
 @media (max-width: 1024px) {
 	.problem__header-container {
-		/* width: 708px; */
-		margin-bottom: 40px;
+		margin: 30px 0 40px 0;
 	}
 }

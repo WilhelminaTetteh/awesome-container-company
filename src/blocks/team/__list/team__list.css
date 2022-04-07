@@ -8,3 +8,9 @@
 	width: 55.5%;
 	margin-bottom: 120px;
 }
+@media (max-width: 1024px) {
+	.team__list {
+		width: 78.125%;
+		justify-content: space-between;
+	}
+}

@@ -1,5 +1,5 @@
 .pricing__text {
-	margin-top: 32px;
+	margin: 32px 0 0 0;
 	width: 41%;
 	font-family: 'Spline Sans', sans-serif;
 	font-style: normal;
@@ -7,4 +7,13 @@
 	font-size: 18px;
 	line-height: 21px;
 	text-align: center;
+}
+.pricing__text:first-child {
+	padding: 0 5px;
+}
+
+@media (max-width: 1024px) {
+	.pricing__text {
+		width: 58%;
+	}
 }
