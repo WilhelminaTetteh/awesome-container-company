@@ -14,10 +14,11 @@
 		justify-content: space-between;
 	}
 }
-@media (max-width: 376px) {
+@media (max-width: 476px) {
 	.team__list {
 		/* flex-wrap: wrap; */
 		flex-direction: column;
 		justify-content: center;
+		margin-bottom: 105px;
 	}
 }
