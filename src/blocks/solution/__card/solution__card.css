@@ -8,11 +8,17 @@
   grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .solution__card {
-    width: 100%;
+    width: calc(100% - 128px);
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .solution__card {
+    width: calc(100% - 20px);
   }
 }

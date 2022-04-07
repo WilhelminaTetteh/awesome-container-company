@@ -10,10 +10,15 @@
   padding-left: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .solution__card-text {
     padding: 0;
     margin: 0 auto;
-    max-width: 303px;
+  }
+}
+
+@media (max-width: 525px) {
+  .solution__card-text {
+    max-width: 323px;
   }
 }
