@@ -15,6 +15,15 @@
 		height: 289px;
 	}
 }
+
+@media (max-width: 425px) {
+	.home__slider {
+		width: 342.76px;
+		height: 201px;
+		margin-right: 20px;
+	}
+}
+
 /* style={{
 	width: 628,
 	height: 369,

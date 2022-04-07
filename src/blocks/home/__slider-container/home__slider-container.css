@@ -1,3 +1,9 @@
 .home__slider-container {
-  max-width: 628px;
+	max-width: 628px;
+}
+@media (max-width: 425px) {
+	.home__slider-container {
+		max-width: 342px;
+		margin: 0 auto;
+	}
 }
