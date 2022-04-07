@@ -1,0 +1,12 @@
+.solution__carousel-nav {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 16.5px);
+  margin: 0 auto;
+}
+
+@media (min-width: 641px) {
+  .solution__carousel-nav {
+    display: none;
+  }
+}

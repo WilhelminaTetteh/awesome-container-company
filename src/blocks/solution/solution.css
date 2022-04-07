@@ -4,12 +4,14 @@
 @import url(__carousel/solution__carousel.css);
 @import url(__button/solution__button.css);
 @import url(__button/_isRight/solution__button_isRight.css);
+@import url(__button/_mobile/solution__button_mobile.css);
 @import url(__card/solution__card.css);
 @import url(__card-header/solution__card-header.css);
 @import url(__card-image/solution__card-image.css);
 @import url(__card-item/solution__card-item.css);
 @import url(__card-list/solution__card-list.css);
 @import url(__card-text/solution__card-text.css);
+@import url(__carousel-nav/solution__carousel-nav.css);
 @import url(__visual/solution__visual.css);
 @import url(__visual-image/solution__visual-image.css);
 @import url(__visual-text/solution__visual-text.css);

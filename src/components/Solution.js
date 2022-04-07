@@ -52,6 +52,11 @@ const Solution = () => {
         </div>
 
         <button className="solution__button solution__button_isRight" onClick={nextCard} />
+        <div className="solution__carousel-nav">
+          <button className="solution__button solution__button_mobile" onClick={nextCard} />
+          <p className="solution__carousel-num">{selectedCard.key}/3</p>
+          <button className="solution__button solution__button_isRight solution__button_mobile" onClick={nextCard} />
+        </div>
       </div>
 
       <div className="solution__visual">

@@ -14,3 +14,9 @@
   opacity: 0.8;
   cursor: pointer;
 } 
+
+@media (max-width: 640px) {
+  .solution__button {
+    display: none;
+  }
+}
