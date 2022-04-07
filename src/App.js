@@ -40,7 +40,7 @@ function App() {
 				<Solution />
 				<About onContactButtonClick={openModal} />
 				<Impact />
-				<Pricing />
+				<Pricing onContactButtonClick={openModal} />
 				<Team />
 				<Partners />
 			</main>

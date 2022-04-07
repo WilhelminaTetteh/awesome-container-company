@@ -1,42 +1,10 @@
 import React from 'react';
 // import './Navbar.css';
 import logo from '../images/logo.svg';
-
-const navOptions = [
-	{
-		key: 1,
-		content: 'The Problem',
-		href: '#problem'
-	},
-	{
-		key: 2,
-		content: 'Sustainable Solution',
-		href: '#solution'
-	},
-	{
-		key: 3,
-		content: 'Impact',
-		href: '#impact'
-	},
-	{
-		key: 4,
-		content: 'Pricing',
-		href: '#pricing'
-	},
-	{
-		key: 5,
-		content: 'Team',
-		href: '#team'
-	},
-	{
-		key: 6,
-		content: 'Contacts',
-		href: '#footer'
-	}
-]
+import { navOptions } from '../constants/constants';
 
 const Navbar = ({ onContactButtonClick }) => {
-	const [isMenuOpen, setIsMenuOpen] = React.useState(true);
+	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
 	const onClick = () => {
 		setIsMenuOpen(!isMenuOpen);
@@ -76,36 +44,6 @@ const Navbar = ({ onContactButtonClick }) => {
 								</li>
 							)
 						})}
-						{/* <li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#problem'>
-								The Problem
-							</a>
-						</li>
-						<li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#solution'>
-								Sustainable Solution
-							</a>
-						</li>
-						<li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#impact'>
-								Impact
-							</a>
-						</li>
-						<li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#pricing'>
-								Pricing
-							</a>
-						</li>
-						<li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#team'>
-								Team
-							</a>
-						</li>
-						<li className='navbar__item'>
-							<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href='#footer'>
-								Contacts
-							</a>
-						</li> */}
 						<li className='navbar__item'>
 							<button
 								onClick={onMobileClick}

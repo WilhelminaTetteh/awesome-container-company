@@ -1,22 +1,20 @@
-@import url(./__header/pricing__header.css);
-@import url(./__info/pricing__info.css);
-@import url(./__info-span/pricing__info-span.css);
-@import url(./__calculations/pricing__calculation.css);
-@import url(./__calculation-span/pricing__calculation-span.css);
-@import url(./__section1/pricing__section1.css);
-@import url(./__section2/pricing__section2.css);
-@import url(./__dialogue/pricing__dialogue.css);
-@import url(./__button/pricing__button.css);
-@import url(./__text/pricing__text.css);
+@import url(__button/pricing__button.css);
+@import url(__container/pricing__container.css);
+@import url(__calculations/pricing__calculation.css);
+@import url(__calculation-span/pricing__calculation-span.css);
+@import url(__dialogue/pricing__dialogue.css);
+@import url(__header/pricing__header.css);
+@import url(__info/pricing__info.css);
+@import url(__info-span/pricing__info-span.css);
+@import url(__section1/pricing__section1.css);
+@import url(__section2/pricing__section2.css);
+@import url(__text/pricing__text.css);
 
 .pricing {
-	padding: 250px 0 220px 0;
-	/* border: 1px solid red;  */
-	background-image: url('../../images/pricing1.svg');
-	background-repeat: no-repeat;
-	background-position: 79% 4.5%;
 	max-width: 1440px;
-	margin: 0 auto;
+	margin: 0 auto 240px;
+	display: flex;
+	flex-direction: column;
 }
 
 @media (max-width: 1024px) {
@@ -31,3 +29,8 @@
 		background-size: 200px 200px;
 	}
 }
+/* @media (max-width: 767px) {
+	.pricing {
+		margin: 0 auto 120px;
+	}
+} */

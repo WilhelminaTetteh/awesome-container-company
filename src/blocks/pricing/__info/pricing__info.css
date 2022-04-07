@@ -6,7 +6,14 @@
 	line-height: 21px;
 	width: 56%;
 	padding: 0;
-	margin: 0 0 240px 0;
+	margin: 0 0 240px;
+}
+
+@media (max-width: 767px) {
+	.pricing__info {
+		margin: 0 0 120px;
+		width: 100%;
+	}
 }
 @media (max-width: 1024px) {
 	.pricing__info {
