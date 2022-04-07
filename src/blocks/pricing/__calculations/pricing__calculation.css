@@ -13,5 +13,6 @@
 @media (max-width: 768px) {
 	.pricing__calculation {
 		font-size: 30px;
+		line-height: 33px;
 	}
 }

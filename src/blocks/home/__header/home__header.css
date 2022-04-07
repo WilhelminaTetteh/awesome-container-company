@@ -18,3 +18,11 @@
 		width: 728px;
 	}
 }
+@media (max-width: 375px) {
+	.home__header {
+		font-size: 28px;
+		line-height: 34px;
+		width: 343px;
+		text-align: center;
+	}
+}

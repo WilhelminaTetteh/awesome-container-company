@@ -29,9 +29,10 @@
 		background-size: 200px 200px;
 	}
 }
+
 @media (max-width: 767px) {
 	.pricing {
 		margin: 0 auto 120px;
-		padding: 0 0 140px 0;
+		padding: 0;
 	}
 }

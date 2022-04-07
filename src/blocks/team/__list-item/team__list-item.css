@@ -10,3 +10,8 @@
 		width: 25%;
 	}
 }
+@media (max-width: 376px) {
+	.team__list-item {
+		width: 100%;
+	}
+}

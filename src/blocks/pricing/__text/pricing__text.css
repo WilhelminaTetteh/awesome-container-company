@@ -18,9 +18,9 @@
 	}
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
 	.pricing__text {
 		width: 100%;
 		max-width: 343px;
 	}
-} */
+}
