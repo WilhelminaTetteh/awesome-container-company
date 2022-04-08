@@ -37,7 +37,7 @@ const Navbar = ({ onContactButtonClick }) => {
 					<ul className={`navbar__items ${isMenuOpen ? 'navbar__items_mobile' : ''}`}>
 						{navOptions.map(({key, content, href}) => {
 							return (
-								<li key={key} className={`navbar__item ${isMenuOpen ? 'navbar__item_mobile' : ''}`} onClick={onClick}>
+								<li key={key} className={`navbar__item ${isMenuOpen ? 'navbar__item_mobile' : ''}`}>
 									<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href={href}>
 										{content}
 									</a>
