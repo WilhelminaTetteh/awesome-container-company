@@ -7,7 +7,9 @@ const Navbar = ({ onContactButtonClick }) => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
 	const onClick = () => {
-		setIsMenuOpen(!isMenuOpen);
+		if (isMenuOpen) {
+			setIsMenuOpen(!isMenuOpen);
+		}
 	}
 
 	const onMobileClick = () => {
@@ -37,7 +39,7 @@ const Navbar = ({ onContactButtonClick }) => {
 					<ul className={`navbar__items ${isMenuOpen ? 'navbar__items_mobile' : ''}`}>
 						{navOptions.map(({key, content, href}) => {
 							return (
-								<li key={key} className={`navbar__item ${isMenuOpen ? 'navbar__item_mobile' : ''}`}>
+								<li key={key} className={`navbar__item ${isMenuOpen ? 'navbar__item_mobile' : ''}`} onClick={onClick}>
 									<a className={`navbar__link ${isMenuOpen ? 'navbar__link_mobile' : ''}`} href={href}>
 										{content}
 									</a>
