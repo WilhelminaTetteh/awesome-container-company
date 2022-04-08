@@ -1,0 +1,29 @@
+@import url(__bars/impact__bars.css);
+@import url(__card-bullet/impact__card-bullet.css);
+@import url(__card-content/impact__card-content.css);
+@import url(__card-header/impact__card-header.css);
+@import url(__card-list/impact__card-list.css);
+@import url(__card-text/impact__card-text.css);
+@import url(__card/impact__card.css);
+@import url(__cards/impact__cards.css);
+@import url(__circles/impact__circles.css);
+@import url(__competition/impact__competition.css);
+@import url(__header/impact__header.css);
+@import url(__list-item/impact__list-item.css);
+@import url(__table/impact__table.css);
+@import url(__table-cell/impact__table-cell.css);
+@import url(__table-cell/_bottom/impact__table-cell_bottom.css);
+@import url(__table-cell/_end/impact__table-cell_end.css);
+@import url(__table-cell/_low/impact__table-cell_low.css);
+@import url(__table-cell/_none/impact__table-cell_none.css);
+@import url(__table-dot/impact__table-dot.css);
+@import url(__table-dot/_highlight/impact__table-dot_highlight.css);
+@import url(__table-logo/impact__table-logo.css);
+@import url(__table-text/impact__table-text.css);
+@import url(__table-text/_highlight/impact__table-text_highlight.css);
+
+.impact {
+  background-color: #f4f4f4;
+  padding-bottom: 64px;
+  z-index: -1;
+}

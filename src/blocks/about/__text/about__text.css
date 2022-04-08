@@ -1,0 +1,29 @@
+@import url(_1/about__text_1.css);
+@import url(_2/about__text_2.css);
+@import url(_3/about__text_3.css);
+@import url(_4/about__text_4.css);
+
+.about__text {
+  font-family: 'Spline Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #1c383c;
+  max-width: 420px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  gap: 30px
+}
+
+@media (max-width: 767px) {
+  .about__text {
+    align-self: center;
+    max-width: 343px;
+  }
+}

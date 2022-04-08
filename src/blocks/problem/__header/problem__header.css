@@ -1,0 +1,28 @@
+.problem__header {
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 52px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width: 1279px) {
+	.problem__header {
+		max-width: 582px;
+	}
+}
+@media (max-width: 1023px) {
+	.problem__header {
+		max-width: 647px;
+	}
+}
+
+@media (max-width: 767px) {
+	.problem__header {
+		max-width: 346px;
+		font-size: 28px;
+		line-height: 32px;
+	}
+}

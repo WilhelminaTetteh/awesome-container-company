@@ -1,0 +1,20 @@
+.impact__bars {
+	position: absolute;
+	width: 241px;
+	height: 143px;
+	align-self: center;
+	top: -103px;
+	background-image: url(../../../images/bars.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+
+
+@media (max-width: 999px) {
+	.impact__bars {
+		top: -61px;
+		width: 160px;
+		height: 96px;
+	}
+}

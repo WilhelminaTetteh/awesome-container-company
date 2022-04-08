@@ -1,0 +1,26 @@
+.modal__container {
+	position: relative;
+	width: 760px;
+	/* height: 778px; */
+	/* background-color: rgb(247, 254, 179); */
+	background-color: #fff;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	/* margin: 140px auto 0 auto; */
+	margin: 0 auto;
+	z-index: 4;
+}
+
+@media (max-width: 1024px) {
+	.modal__container {
+		width: 560px;
+	}
+}
+@media (max-width: 425px) {
+	.modal__container {
+		width: 100%;
+		top: 0;
+		bottom: 0;
+		position: fixed;
+	}
+}

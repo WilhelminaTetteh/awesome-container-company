@@ -1,0 +1,37 @@
+@import url(__button/pricing__button.css);
+@import url(__container/pricing__container.css);
+@import url(__calculations/pricing__calculation.css);
+@import url(__calculation-span/pricing__calculation-span.css);
+@import url(__dialogue/pricing__dialogue.css);
+@import url(__header/pricing__header.css);
+@import url(__info/pricing__info.css);
+@import url(__info-span/pricing__info-span.css);
+@import url(__section1/pricing__section1.css);
+@import url(__section2/pricing__section2.css);
+@import url(__text/pricing__text.css);
+
+.pricing {
+	max-width: 1440px;
+	margin: 0 auto 240px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 1279px) {
+	.pricing {
+		background-position: 93% 2.7%;
+	}
+}
+@media (max-width: 1023px) {
+	.pricing {
+		padding: 112px 0 0;
+		background-size: 200px 200px;
+	}
+}
+
+@media (max-width: 767px) {
+	.pricing {
+		margin: 0 auto 120px;
+		padding: 0;
+	}
+}

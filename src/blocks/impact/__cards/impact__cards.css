@@ -1,0 +1,16 @@
+.impact__cards {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 1440px;
+	margin: 60px auto 0;
+}
+
+
+@media (max-width: 999px) {
+	.impact__cards {
+		flex-direction: column;
+		gap: 117px;
+		margin: 101px auto 20px;
+		align-items: center;
+	}
+}

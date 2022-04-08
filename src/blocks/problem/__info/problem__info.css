@@ -1,0 +1,8 @@
+.problem__info {
+	margin: 0 auto 0 0;
+}
+@media (max-width: 1279px) {
+	.problem__info {
+		margin: 0 auto 0 auto;
+	}
+}

@@ -1,0 +1,23 @@
+.solution__header {
+  font-family: 'Spline Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto;
+  padding: 120px 0 0;
+  text-align: center;
+  color: #1c383c;
+}
+
+@media (max-width: 767px) {
+  .solution__header {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 376px) {
+  .solution__header {
+    display: none;
+  }
+}

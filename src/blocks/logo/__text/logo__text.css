@@ -1,0 +1,19 @@
+.logo__text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #1c383c;
+	padding: 0 0 0 4px;
+	margin: 0;
+	font-family: 'Spline Sans', sans-serif;
+	/* margin-top: 15.7px; */
+	height: 17px;
+}
+
+@media (max-width: 767px) {
+	.logo__text {
+		font-size: 12px;
+		line-height: 14px;
+	}
+}

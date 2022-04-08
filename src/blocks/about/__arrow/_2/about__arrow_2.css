@@ -1,0 +1,15 @@
+.about__arrow_2 {
+  grid-row: 3;
+  grid-column: 3;
+  align-self: flex-start;
+  background-image: url(../../../../images/arrow2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 767px) {
+  .about__arrow_2 {
+    align-self: center;
+    background-image: url(../../../../images/arrow5.svg);
+  }
+}

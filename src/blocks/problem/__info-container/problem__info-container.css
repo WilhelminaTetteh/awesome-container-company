@@ -1,0 +1,26 @@
+.problem__info-container {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1160.01px;
+	/* justify-content: space-between; */
+}
+/* @media (max-width: 1024px) {
+	.problem__info-container {
+		width: 40.4%;
+	
+	}
+} */
+
+@media (max-width: 1279px) {
+	.problem__info-container {
+		max-width: 982px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.problem__info-container {
+		flex-direction: column-reverse;
+		text-align: center;
+		max-width: unset;
+	}
+}

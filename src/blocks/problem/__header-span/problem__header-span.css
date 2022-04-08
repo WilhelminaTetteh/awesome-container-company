@@ -1,0 +1,11 @@
+@media (max-width: 1279px) {
+	.problem__header-span {
+		display: block;
+	}
+}
+
+@media (max-width: 1023px) {
+	.problem__header-span {
+		display: inline;
+	}
+}

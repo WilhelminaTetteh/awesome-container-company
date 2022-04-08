@@ -1,0 +1,19 @@
+.impact__circles {
+	position: absolute;
+	width: 249px;
+	height: 118px;
+	align-self: center;
+	top: -91px;
+	background-image: url(../../../images/circles.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+
+@media (max-width: 999px) {
+	.impact__circles {
+		top: -57px;
+		width: 160px;
+		height: 75.82px;
+	}
+}

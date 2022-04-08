@@ -1,0 +1,18 @@
+.pricing__button {
+	background: #ff9820;
+	border-radius: 3px;
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 16px 29px;
+	color: #ffffff;
+	border: none;
+	transition: background-color 0.25s linear;
+}
+
+.pricing__button:hover {
+	background-color: #e78819;
+	cursor: pointer;
+}

@@ -1,0 +1,59 @@
+@import url(./vendor/normalize.css);
+@import url(./blocks/navbar/navbar.css);
+@import url(./blocks/chat/chat.css);
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/home/home.css);
+@import url(./blocks/problem/problem.css);
+@import url(./blocks/solution/solution.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/impact/impact.css);
+@import url(./blocks/pricing/pricing.css);
+@import url(./blocks/team/team.css);
+@import url(./blocks/partners/partners.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/modal/modal.css);
+@import url(./blocks/form/form.css);
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+	min-height: 100%;
+	padding: 0;
+	font-family: 'Spline Sans', sans-serif;
+}
+
+img {
+	max-width: 627px;
+}
+
+@media (max-width: 1024px) {
+	img {
+		width: 492px;
+		height: 289px;
+	}
+}
+
+@media (max-width: 495px) {
+	img {
+		width: 342px;
+		height: 201px;
+	}
+}
+
+/* 
+.form__input-error {
+	font-family: 'Spline Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #e30613;
+	margin: 0 0 11px 0;
+	padding: 0;
+	display: none;
+}
+input:not(:focus):invalid ~ .form__input-error {
+	display: block;
+} */

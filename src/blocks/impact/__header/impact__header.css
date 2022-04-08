@@ -1,0 +1,21 @@
+.impact__header {
+	font-family: 'Spline Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 52px;
+	text-align: center;
+	color: #1c383c;
+	margin: 0 auto;
+	padding-top: 120px;
+	white-space: normal;
+}
+
+@media (max-width: 533px) {
+	.impact__header {
+		padding-top: 60px;
+		font-size: 28px;
+		line-height: 32px;
+		max-width: 343px;
+	}
+}

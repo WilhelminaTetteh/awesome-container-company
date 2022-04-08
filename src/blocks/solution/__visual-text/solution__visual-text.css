@@ -1,0 +1,19 @@
+@import url(_1/solution__visual-text_1.css);
+@import url(_2/solution__visual-text_2.css);
+@import url(_3/solution__visual-text_3.css);
+
+.solution__visual-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Spline Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #1C383C;
+  max-width: 543px;
+  margin: 0;
+  gap: 40px;
+}

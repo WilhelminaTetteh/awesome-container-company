@@ -1,0 +1,6 @@
+.impact__table-dot {
+  background-image: url(../../../images/dot.svg);
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}

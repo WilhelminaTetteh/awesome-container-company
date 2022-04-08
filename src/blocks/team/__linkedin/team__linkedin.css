@@ -1,0 +1,9 @@
+.team__linkedin {
+	margin: 0 auto;
+	opacity: 1;
+	transition: linear 0.25s opacity;
+}
+
+.team__linkedin:hover {
+	opacity: 0.75;
+}

@@ -1,0 +1,10 @@
+.chat__avatar_acc {
+  right: 0;
+  bottom: -32px;
+}
+
+@media (max-width: 767px) {
+  .chat__avatar_acc {
+    bottom: -46px;
+  }
+}

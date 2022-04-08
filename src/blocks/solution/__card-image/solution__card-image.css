@@ -1,0 +1,22 @@
+.solution__card-image {
+  max-width: 520px;
+  width: 100%;
+  margin: 45px 80px 35px 11px;
+}
+
+@media (max-width: 1279px) {
+  .solution__card-image {
+    max-width: 339px;
+    height: auto;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .solution__card-image {
+    max-width: 339px;
+    max-height: 339px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}

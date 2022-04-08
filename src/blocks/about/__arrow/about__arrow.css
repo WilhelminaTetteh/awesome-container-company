@@ -1,0 +1,13 @@
+.about__arrow {
+  height: 46px;
+  width: 46px;
+  margin: 40px;
+}
+
+@media (max-width: 767px) {
+  .about__arrow {
+    width: 33px;
+    height: 33px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.pricing__calculation {
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 52px;
+	text-align: center;
+	color: #1c383c;
+	margin: 0 0 92px 0;
+	padding: 0;
+	/* width: 71.38%; */
+}
+@media (max-width: 768px) {
+	.pricing__calculation {
+		font-size: 30px;
+		line-height: 33px;
+	}
+}

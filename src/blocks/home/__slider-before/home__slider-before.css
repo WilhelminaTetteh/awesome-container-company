@@ -1,0 +1,13 @@
+.home__slider-before {
+	position: absolute;
+	right: 94%;
+	top: 100%;
+	margin: 13px 0 0 0;
+	padding: 0;
+}
+
+@media (max-width: 495px) {
+	.home__slider-before {
+		left: 0%;
+	}
+}

@@ -1,0 +1,22 @@
+.solution__button {
+  width: 24px;
+  height: 24px;
+  background-color: #1c383c;
+  background-image: url(../../../images/button-vector.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.solution__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+} 
+
+@media (max-width: 640px) {
+  .solution__button {
+    display: none;
+  }
+}

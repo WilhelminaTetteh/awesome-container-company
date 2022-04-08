@@ -1,0 +1,23 @@
+.navbar__item {
+	margin-left: 30px;
+	text-align: center;
+	color: #1c383c;
+	list-style: none;
+}
+.navbar__item:first-child {
+	margin-left: 0px;
+}
+/* .navbar__item:last-child {
+	margin-left: 0px;
+} */
+@media (max-width: 1279px) {
+	.navbar__item {
+		margin-left: 20px;
+	}
+	.navbar__item:first-child {
+		margin-left: 0px;
+	}
+	.navbar__item:last-child {
+		margin-left: 0px;
+	}
+}

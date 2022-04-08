@@ -1,0 +1,13 @@
+.home__dialogue {
+	width: 491px;
+	height: 389px;
+	background-image: url('../../../images/dialogue.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+@media (max-width: 1024px) {
+	.home__dialogue {
+		background-image: url('../../../images/dialogue2.svg');
+	}
+}

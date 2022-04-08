@@ -1,0 +1,12 @@
+.chat__message {
+  padding: 10px 12px;
+  font-family: 'Spline Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161616;
+  max-width: 255px;
+  width: 100%;
+  margin: 0;
+}

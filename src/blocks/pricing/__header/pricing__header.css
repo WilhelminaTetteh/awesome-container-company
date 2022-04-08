@@ -1,0 +1,24 @@
+.pricing__header {
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 52px;
+	color: #1c383c;
+	margin: 190px 0 40px 0;
+	padding: 0;
+}
+
+@media (max-width: 1279px) {
+	.pricing__header {
+		margin: 272px 0 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.pricing__header {
+		margin: 60px 0 40px;
+		font-size: 28px;
+		line-height: 33px;
+	}
+}

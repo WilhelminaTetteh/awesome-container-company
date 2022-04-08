@@ -1,0 +1,15 @@
+.impact__table-text {
+  margin: auto 0;
+  font-family: 'Spline Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 160px;
+}
+
+@media (max-width: 1223px) {
+  .impact__table-text {
+    margin: 0 12px;
+  }
+}

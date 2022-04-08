@@ -1,0 +1,26 @@
+.pricing__text {
+	margin: 32px 0 0 0;
+	width: 41%;
+	font-family: 'Spline Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+.pricing__text:first-child {
+	padding: 0 5px;
+}
+
+@media (max-width: 1024px) {
+	.pricing__text {
+		width: 58%;
+	}
+}
+
+@media (max-width: 767px) {
+	.pricing__text {
+		width: 100%;
+		max-width: 343px;
+	}
+}

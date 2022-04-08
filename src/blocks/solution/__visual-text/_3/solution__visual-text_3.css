@@ -1,0 +1,11 @@
+.solution__visual-text_3 {
+  /* left: 320px;
+  bottom: 120px; */
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .solution__visual-text_3 {
+    align-self: center;
+  }
+}

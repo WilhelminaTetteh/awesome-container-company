@@ -1,0 +1,30 @@
+.impact__competition {
+  margin: 0;
+  padding-bottom: 56px;
+}
+
+
+@media (max-width: 1016px) {
+  .impact__competition {
+    overflow-x: scroll;
+    overscroll-behavior-x: none;
+    white-space: nowrap;
+  }
+
+  .impact__competition::-webkit-scrollbar {
+    width: 100%;
+  }
+  
+  .impact__competition::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 10px;
+    margin: 0 20px;
+  }
+  
+  .impact__competition::-webkit-scrollbar-thumb {
+    background-color: #1c383c;
+    border-radius: 10px;
+    width: 122px;
+    height: 8px;
+  } 
+}

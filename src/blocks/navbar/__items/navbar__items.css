@@ -1,0 +1,14 @@
+.navbar__items {
+	display: flex;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	list-style: none;
+}
+
+@media (max-width: 1011px) {
+	.navbar__items {
+		display: none;
+	}
+}

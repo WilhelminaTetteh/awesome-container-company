@@ -1,0 +1,21 @@
+.team__list-item {
+	margin: 0 0px 0 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 278.4px;
+}
+@media (max-width: 1024px) {
+	.team__list-item {
+		width: 200px;
+	}
+}
+
+@media (max-width: 576px) {
+	.team__list-item {
+		width: 100%;
+		margin-bottom: 49.25px;
+	}
+}

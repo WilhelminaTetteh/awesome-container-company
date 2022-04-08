@@ -1,0 +1,10 @@
+.form__input-error {
+	font-family: 'Spline Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #e30613;
+	margin: 0 0 11px 0;
+	padding: 0;
+}

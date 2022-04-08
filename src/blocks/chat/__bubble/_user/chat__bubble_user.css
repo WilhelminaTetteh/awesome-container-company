@@ -1,0 +1,9 @@
+.chat__bubble_user {
+  margin-left: 50px;
+}
+
+@media (max-width: 767px) {
+  .chat__bubble_user {
+    margin-left: 46px;
+  }
+}

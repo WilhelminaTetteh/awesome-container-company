@@ -1,0 +1,18 @@
+@import url(__button/about__button.css);
+@import url(__center-text/about__center-text.css);
+@import url(__header/about__header.css);
+@import url(__image/about__image.css);
+@import url(__text/about__text.css);
+@import url(__visual/about__visual.css);
+@import url(__arrow/about__arrow.css);
+@import url(__arrow/_1/about__arrow_1.css);
+@import url(__arrow/_2/about__arrow_2.css);
+@import url(__arrow/_3/about__arrow_3.css);
+@import url(__arrow/_4/about__arrow_4.css);
+
+.about {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}

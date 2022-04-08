@@ -1,0 +1,19 @@
+.about__visual {
+  display: grid;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding-top: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 1240px;
+}
+
+@media (max-width: 767px) {
+  .about__visual {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+}

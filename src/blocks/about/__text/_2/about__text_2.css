@@ -1,0 +1,10 @@
+.about__text_2 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+@media (max-width: 767px) {
+  .about__text_2 {
+    align-self: center;
+  }
+}

@@ -1,0 +1,15 @@
+.form__input {
+	font-weight: 400;
+	font-size: 18px;
+	padding: 20px;
+	color: #1c383c;
+	background: #ffffff;
+	border: 1px solid #1c383c;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+@media (max-width: 1024px) {
+	.form__input {
+		padding: 10px;
+	}
+}

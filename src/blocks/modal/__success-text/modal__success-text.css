@@ -1,0 +1,16 @@
+.modal__success-text {
+	font-family: 'Spline Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #1c383c;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width: 425px) {
+	.modal__success-text {
+		font-size: 14px;
+	}
+}

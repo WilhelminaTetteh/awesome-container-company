@@ -1,0 +1,26 @@
+.pricing__section1 {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: calc(100% - 200px);
+	margin: 60px auto 0;
+}
+
+/* @media (max-width: 1024px) {
+	.pricing__section1 {
+		padding-left: 4%;
+	}
+} */
+@media (max-width: 1279px) {
+	.pricing__section1 {
+		width: calc(100% - 80px);
+		margin: 40px auto 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.pricing__section1 {
+		margin: 50px auto 0;
+		width: calc(100% - 32px);
+	}
+}

@@ -1,0 +1,14 @@
+.solution__visual {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1212px;
+  width: calc(100vw - 96px);
+  margin: 80px auto 120px;
+}
+
+@media (max-width: 767px) {
+  .solution__visual {
+    width: calc(100vw - 32px);
+  }
+}

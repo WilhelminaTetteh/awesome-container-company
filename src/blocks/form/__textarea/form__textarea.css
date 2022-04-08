@@ -1,0 +1,17 @@
+.form__textarea {
+	font-family: 'Spline Sans', sans-serif;
+	font-size: 18px;
+	padding: 20px;
+	color: #1c383c;
+	background: #ffffff;
+	border: 1px solid #1c383c;
+	box-sizing: border-box;
+	border-radius: 3px;
+	height: 180px;
+}
+@media (max-width: 425px) {
+	.form__textarea {
+		font-size: 10px;
+		height: 100px;
+	}
+}
