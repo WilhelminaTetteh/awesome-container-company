@@ -1,13 +1,19 @@
 .chat__container {
-  width: 100%;
-  margin: 0 12px 40px 0;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+	width: 100%;
+	margin: 0 12px 40px 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
 
 @media (max-width: 1279px) {
-  .chat__container {
-    margin: 0 0 72px 0;
-  }
+	.chat__container {
+		/* margin: 0 0 72px 60px; */
+		margin: 0 0 0px 60px;
+	}
+}
+@media (max-width: 768px) {
+	.chat__container {
+		margin: 30px 0 0px 0px;
+	}
 }
