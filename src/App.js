@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Home from './components/Home';
 import Problem from './components/Problem';
 import Navbar from './components/Navbar';
@@ -14,7 +14,6 @@ import Modal from 'react-modal';
 
 function App() {
 	// const [isModalOpen, setIsModalOpen] = React.useState(false);
-	const [isPopupOpen, setPopupOpen] = React.useState(false);
 	const [modalIsOpen, setIsOpen] = React.useState(false);
 	function openModal() {
 		setIsOpen(true);
@@ -22,6 +21,20 @@ function App() {
 	function closeModal() {
 		setIsOpen(false);
 	}
+
+	// ESC Close
+
+	useEffect(() => {
+		const closeByEscape = (e) => {
+			if (e.key === 'Escape') {
+				closeModal();
+			}
+		};
+		document.addEventListener('keydown', closeByEscape);
+		return () =>
+			document.removeEventListener('keydown', closeByEscape);
+	}, []);
+
 	return (
 		<div className='page'>
 			<Modal
@@ -29,7 +42,10 @@ function App() {
 				overlayClassName='modal__overlay'
 				isOpen={modalIsOpen}
 				ariaHideApp={false}>
-				<ContactForm onCloseButtonClick={closeModal} />
+				<ContactForm
+					onHandleContactSubmit={closeModal}
+					onCloseButtonClick={closeModal}
+				/>
 			</Modal>
 			<header>
 				<Navbar onContactButtonClick={openModal} />

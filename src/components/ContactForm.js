@@ -1,6 +1,9 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-const ContactForm = ({ onCloseButtonClick }) => {
+const ContactForm = ({
+	onCloseButtonClick,
+	onHandleContactSubmit,
+}) => {
 	const {
 		register,
 		handleSubmit,
@@ -13,6 +16,7 @@ const ContactForm = ({ onCloseButtonClick }) => {
 	const onSubmit = (data) => {
 		console.log(data);
 		reset();
+		onHandleContactSubmit();
 	};
 	return (
 		<div className='modal__container'>
