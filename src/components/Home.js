@@ -16,23 +16,8 @@ const Home = () => {
 			</h1>
 			<div className='home__visuals'>
 				{/* slider starts */}
-				<div className='home__slider-container'>
+				<article className='home__slider-container'>
 					<div className='home__slider'>
-						{/* <ImageSlider
-							image2={<img src={sliderTrash} alt='trash' />}
-							image1={sliderContainers}
-							sliderColor='#ED9D40'
-							customHandle={
-								<div className='handle'>
-									<div className='home__slider-line'></div>
-									<div className='home__slider-circle'>
-										<i className='fas fa-chevron-left home__slider-icon'></i>
-										<i className='fas fa-chevron-right  home__slider-icon'></i>
-									</div>
-									<div className='home__slider-line'></div>
-								</div>
-							}
-						/> */}
 						<ImageSlider
 							image1={sliderContainers}
 							image2={sliderTrash}
@@ -56,7 +41,7 @@ const Home = () => {
 							With Awesome Containers
 						</p>
 					</div>
-				</div>
+				</article>
 				<Chat />
 			</div>
 		</section>

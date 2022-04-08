@@ -5,7 +5,7 @@ import acc from "../images/acc.svg";
 
 const Chat = () => {
   return (
-    <section className="chat" id="chat">
+    <article className="chat" id="chat">
       <div className="chat__container">
         <img className="chat__avatar chat__avatar_customer" alt="black and white smiley" src={user} />
         {chatHistory.map(({content, bubble, text}, i) => {
@@ -17,7 +17,7 @@ const Chat = () => {
         })}
         <img className="chat__avatar chat__avatar_acc" alt="container company smiley" src={acc} />
       </div>
-    </section>
+    </article>
   )
 }
 

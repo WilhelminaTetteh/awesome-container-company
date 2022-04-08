@@ -4,7 +4,7 @@ import pricing2 from '../images/pricing2.svg';
 const Pricing = ({ onContactButtonClick }) => {
 	return (
 		<section className='pricing' id='pricing'>
-			<div className='pricing__section1'>
+			<article className='pricing__section1'>
 				<img 
 					className='pricing__container'
 					src={pricing1} 
@@ -25,8 +25,8 @@ const Pricing = ({ onContactButtonClick }) => {
 					its solution to cultivating a Sustainable Living — 1 of the
 					5 key programmes of SG Green Plan.
 				</p>
-			</div>
-			<div className='pricing__section2'>
+			</article>
+			<article className='pricing__section2'>
 				<h3 className='pricing__calculation'>
 					Get in touch with us to calculate prices{' '}
 					<span className='pricing__calculation-span'>
@@ -43,7 +43,7 @@ const Pricing = ({ onContactButtonClick }) => {
 					Leave your contacts and request, and our manager will reach
 					out to you to establish our futher parntership!
 				</p>
-			</div>
+			</article>
 		</section>
 	);
 };

@@ -459,21 +459,21 @@ export const team = [
 		src: '../images/Hung.svg',
 		name: 'Hung Lam',
 		title: 'Founder / CEO',
-		linkedIn: '../images/linkedIn.svg',
+		linkedIn: 'https://www.linkedin.com/in/hung-lam-85a502163/',
 	},
 	{
 		id: 1,
 		src: '../images/Edwin.svg',
 		name: 'Edwin Phua',
 		title: 'Co-founder / COO',
-		linkedIn: '../images/linkedIn.svg',
+		linkedIn: 'https://www.linkedin.com/in/edwin-phua/',
 	},
 	{
 		id: 1,
 		src: '../images/Catella.svg',
 		name: 'Guillaume Catella',
 		title: 'Co-founder / CTO',
-		linkedIn: '../images/linkedIn.svg',
+		linkedIn: 'https://www.linkedin.com/in/guillaumecatella/',
 	},
 ];
 export const partners = [
