@@ -480,26 +480,31 @@ export const partners = [
 	{
 		id: 1,
 		src: '../images/chefatwork.svg',
-		link: '',
+    alt: 'Chef at work logo: redefining F&B Experiences',
+		link: 'https://chefatwork.com.sg/',
 	},
 	{
 		id: 1,
 		src: '../images/stewards.svg',
-		link: '',
+    alt: 'Steward\'s solution logo',
+		link: 'https://www.stewardssolution.com/',
 	},
 	{
 		id: 1,
 		src: '../images/ninjavan.svg',
-		link: '',
+    alt: 'Ninja van logo',
+		link: 'https://www.ninjavan.co/en-sg',
 	},
 	{
 		id: 1,
 		src: '../images/creatella.svg',
-		link: '',
+    alt: 'Creatella logo',
+		link: 'https://creatella.ventures/',
 	},
 	{
 		id: 1,
 		src: '../images/goa.svg',
+    alt: 'GOA International Limited logo',
 		link: '',
 	},
 ];
