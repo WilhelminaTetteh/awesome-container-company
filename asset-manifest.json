@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bd6cd97.css",
+    "main.js": "/static/js/main.03188654.js",
+    "static/media/sliderTrash.svg": "/static/media/sliderTrash.1e810192ee291452e307a1365bb05614.svg",
+    "static/media/sliderContainers.svg": "/static/media/sliderContainers.44f8bc3f4a2b9ee0eb256ce1dfdc3c16.svg",
+    "static/media/card1.png": "/static/media/card1.d9918614a5eb5d84fb04.png",
+    "static/media/dialogue2.svg": "/static/media/dialogue2.74cf2f8cc46df0fec98d.svg",
+    "static/media/dialogue.svg": "/static/media/dialogue.b6e82f77f042d1845e4b.svg",
+    "static/media/card2.png": "/static/media/card2.8b3e9ebfc652ff6b804d.png",
+    "static/media/card3.png": "/static/media/card3.87d24531aae04547da0c.png",
+    "static/media/pricing3.svg": "/static/media/pricing3.11a8ea928284d189369a.svg",
+    "static/media/pricing2.svg": "/static/media/pricing2.21cb358dde25a380e3fc7d3703b921bb.svg",
+    "static/media/single-use-chart.svg": "/static/media/single-use-chart.8522f1199e03d128fdeb.svg",
+    "static/media/solution3.png": "/static/media/solution3.ba5b60b7ebc327bcd127.png",
+    "static/media/logo.svg": "/static/media/logo.27de27a45ea2cbf215b2e60006cfac75.svg",
+    "static/media/pricing1.svg": "/static/media/pricing1.7ec656b0f8fe80a8adc049ab636ffea1.svg",
+    "static/media/acc.svg": "/static/media/acc.b9665c20b7159074002fd76b8fdfd8cb.svg",
+    "static/media/instagram.svg": "/static/media/instagram.e170e38c0eb75f9a4d04424a078cb997.svg",
+    "index.html": "/index.html",
+    "static/media/user.svg": "/static/media/user.b6eeb343306b194ef64d6284d632b97d.svg",
+    "static/media/circular.svg": "/static/media/circular.e05dbaf6fc363f0c1810.svg",
+    "static/media/arrow5.svg": "/static/media/arrow5.9f0deeff6783ea6ae1ec.svg",
+    "static/media/closebtn.svg": "/static/media/closebtn.dee931ebc7d1c0d14717.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.3b1b84bc705e6a85a331.svg",
+    "static/media/close.svg": "/static/media/close.58b5e7a4c50c284216c9.svg",
+    "static/media/button-vector.svg": "/static/media/button-vector.06fc4c3546ba144ef068.svg",
+    "static/media/bullet-vector.svg": "/static/media/bullet-vector.b7c7988a4991119065b1.svg",
+    "static/media/dot.svg": "/static/media/dot.74faabf532480177e7ad.svg",
+    "static/media/dot1.svg": "/static/media/dot1.b592ab282831dddd6436.svg",
+    "main.2bd6cd97.css.map": "/static/css/main.2bd6cd97.css.map",
+    "main.03188654.js.map": "/static/js/main.03188654.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bd6cd97.css",
+    "static/js/main.03188654.js"
+  ]
+}
