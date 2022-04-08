@@ -33,11 +33,13 @@ const Team = () => {
 					{partners.map((partner, id) => {
 						return (
 							<li key={id} className='partners__list-item'>
-								<img
-									src={partner.src}
-									alt=''
-									className='partners__logo'
-								/>
+								<a className='team__linkedin' href={partner.link} target='_blank' rel='noreferrer'>
+									<img
+										src={partner.src}
+										alt={partner.alt}
+										className='partners__logo'
+									/>
+								</a>
 							</li>
 						);
 					})}
