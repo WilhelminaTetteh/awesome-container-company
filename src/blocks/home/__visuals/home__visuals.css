@@ -13,12 +13,20 @@
 	.home__visuals {
 		flex-direction: column;
 		gap: 60px;
+		align-items: center;
+		justify-content: center;
 		/* max-width: 342px; */
 	}
 }
 @media (max-width: 768px) {
 	.home__visuals {
-		width: 67.6%;
+		/* width: 67.6%; */
+		margin: 0 auto;
+	}
+}
+@media (max-width: 495px) {
+	.home__visuals {
+		width: 100%;
 		margin: 0 auto;
 	}
 }

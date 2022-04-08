@@ -13,10 +13,11 @@
 	.home__slider {
 		width: 492px;
 		height: 289px;
+		border-radius: 3px;
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 495px) {
 	.home__slider {
 		width: 342.76px;
 		height: 201px;

@@ -5,12 +5,15 @@
 @import url(./__slider-container/home__slider-container.css);
 @import url(./__slider-states/home__slider-states.css);
 @import url(./__dialogue/home__dialogue.css);
+@import url(./__slider-after/home__slider-after.css);
+@import url(./__slider-before/home__slider-before.css);
 :root {
 	--image-comparison-slider-width: min(80vw, 768px);
 	--image-comparison-slider-handle-width: 50px;
 }
 .home {
-	padding: 155px 40px 30px 40px;
+	padding: 155px 40px 66px 40px;
+	/* padding: 155px 40px 30px 40px; */
 	max-width: 1440px;
 	margin: 0 auto;
 }
@@ -55,7 +58,8 @@
 
 @media (max-width: 1024px) {
 	.home {
-		padding: 155px 20px 30px 20px;
+		/* padding: 155px 20px 40px 20px; */
+		padding: 155px 20px 71px 20px;
 	}
 }
 @media (max-width: 767px) {
