@@ -510,6 +510,6 @@ export const partners = [
 		src: '../images/goa.svg',
     class: 'partners__goa',
     alt: 'GOA International Limited logo',
-		link: '',
+		link: 'https://www.linkedin.com/company/goa-international-limited/about/',
 	},
 ];
