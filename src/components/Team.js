@@ -20,7 +20,7 @@ const Team = () => {
 								<p className='team__name'>{teamMember.name}</p>
 								<p className='team__title'>{teamMember.title}</p>
 								<a className='team__linkedin' href={teamMember.linkedIn} target='_blank' rel='noreferrer'>
-									<img src='../images/linkedIn.svg' alt='Linkedin logo' />
+									<img src='../images/linkedIn.svg' alt='Linkedin logo' className='team__logo' />
 								</a>
 							</li>
 						);
@@ -37,7 +37,7 @@ const Team = () => {
 									<img
 										src={partner.src}
 										alt={partner.alt}
-										className='partners__logo'
+										className={partner.class}
 									/>
 								</a>
 							</li>

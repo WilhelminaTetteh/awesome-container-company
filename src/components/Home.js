@@ -21,6 +21,8 @@ const Home = () => {
 						<ImageSlider
 							image1={sliderContainers}
 							image2={sliderTrash}
+							alt1='stainless steel containers with lids'
+							alt2='single use containers in garbage'
 							sliderWidth={3}
 							sliderColor='#ED9D40'
 							customHandle={

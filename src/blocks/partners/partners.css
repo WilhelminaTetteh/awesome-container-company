@@ -2,6 +2,11 @@
 @import url('./__list/partners__list.css');
 @import url('./__list-item/partners__list-item.css');
 @import url('./__logo/partners__logo.css');
+@import url(__chef/partners__chef.css);
+@import url(__creatella/partners__creatella.css);
+@import url(__goa/partners__goa.css);
+@import url(__ninjavan/partners__ninjavan.css);
+@import url(__stewards/partners__stewards.css);
 .partners {
 	padding-bottom: 23px;
 }
