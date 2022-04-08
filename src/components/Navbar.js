@@ -6,8 +6,10 @@ import { navOptions } from '../constants/constants';
 const Navbar = ({ onContactButtonClick }) => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-	const onClick = () => {
-		setIsMenuOpen(!isMenuOpen);
+	const onClick = (evt) => {
+		if (isMenuOpen || evt.target.className.search('navbar__menu') > -1) {
+			setIsMenuOpen(!isMenuOpen);
+		}
 	}
 
 	const onMobileClick = () => {
