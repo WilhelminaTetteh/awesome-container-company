@@ -7,7 +7,6 @@ import About from './components/About';
 import Impact from './components/Impact';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
-import Partners from './components/Partners';
 import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 import Modal from 'react-modal';
@@ -58,7 +57,6 @@ function App() {
 				<Impact />
 				<Pricing onContactButtonClick={openModal} />
 				<Team />
-				<Partners />
 			</main>
 			<Footer />
 		</div>

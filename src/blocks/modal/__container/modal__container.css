@@ -19,5 +19,8 @@
 @media (max-width: 425px) {
 	.modal__container {
 		width: 100%;
+		top: 0;
+		bottom: 0;
+		position: fixed;
 	}
 }

@@ -30,7 +30,7 @@ const Solution = () => {
       <h2 className="solution__header">Sustainability Delivered</h2>
       <p className="solution__text"><span className="solution__text-span">Awesome Container Company</span> replaces single-use packaging with reusable stainless steel containers</p>
 
-      <div className="solution__carousel">
+      <article className="solution__carousel">
         <button className="solution__button" onClick={nextCard} />
 
         <div className="solution__card">
@@ -57,10 +57,9 @@ const Solution = () => {
           <p className="solution__carousel-num">{selectedCard.key}/3</p>
           <button className="solution__button solution__button_isRight solution__button_mobile" onClick={nextCard} />
         </div>
-      </div>
+      </article>
 
-      <div className="solution__visual">
-        
+      <article className="solution__visual">
         <p className="solution__visual-text solution__visual-text_1">
           <img src={image1} alt="container stick person holding 5 other containers" className="solution__visual-image solution__visual-image_1" />
           Backend logistics support
@@ -73,7 +72,7 @@ const Solution = () => {
           <img src={image3} alt="#" className="solution__visual-image solution__visual-image_3" />
           Save storage space while removing tons of waste from our oceans and landfills
         </p>
-      </div>
+      </article>
     </section>
   );
 }
