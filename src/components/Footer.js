@@ -12,7 +12,7 @@ const Footer = () => {
         </article>
         <article className="footer__column footer__column_2">
           <h2 className="footer__header">Follow us</h2>
-          <a className="footer__link">
+          <a className="footer__link" href="https://www.crunchbase.com/organization/awesome-container-company" target="_blank" rel="noreferrer">
             <img src={insta} alt="Instagram logo" className="footer__social" />
             <p className="footer__text footer__text_inline">AwesomeContainers</p>
           </a>  
