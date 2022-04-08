@@ -4,10 +4,12 @@
 	list-style: none;
 	display: flex;
 	flex-direction: column;
+	width: 200px;
+	height: 278.4px;
 }
 @media (max-width: 1024px) {
 	.team__list-item {
-		width: 25%;
+		width: 200px;
 	}
 }
 @media (max-width: 476px) {
