@@ -5,3 +5,9 @@
   overflow-x: visible;
   margin-right: 50px;
 }
+
+@media (max-width: 767px) {
+  .chat__bubble_acc {
+    margin-right: 40px;
+  }
+}
