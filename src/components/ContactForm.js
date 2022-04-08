@@ -17,8 +17,10 @@ const ContactForm = ({
 	const onSubmit = (data) => {
 		console.log(data);
 		reset();
-		// onHandleContactSubmit();
 		setIsSubmitted(true);
+		setTimeout(() => {
+			onHandleContactSubmit();
+		}, 4000);
 	};
 	return (
 		<div className='modal__container'>
