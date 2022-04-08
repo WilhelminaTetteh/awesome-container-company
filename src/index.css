@@ -24,8 +24,18 @@ body {
 	font-family: 'Spline Sans', sans-serif;
 }
 
+img {
+	max-width: 627px;
+}
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
+	img {
+		width: 492px;
+		height: 289px;
+	}
+}
+
+@media (max-width: 495px) {
 	img {
 		width: 342px;
 		height: 201px;

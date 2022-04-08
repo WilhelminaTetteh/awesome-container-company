@@ -10,9 +10,13 @@ const Solution = () => {
   const nextCard = (e) => {
     e.preventDefault();
 
-    if (e.target.className === "solution__button") {
+    console.log(e.target);
+
+    if (e.target.className === "solution__button" || e.target.className === "solution__button solution__button_mobile") {
       if (selectedCard.key === 1) {
+        console.log(selectedCard.key);
         setSelectedCard(cardList[2]);
+        console.log(selectedCard.key);
         return;
       } 
       setSelectedCard(cardList[selectedCard.key - 2]);
